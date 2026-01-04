@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pristineworlds:block/stripped_linden_log",
+    "side": "pristineworlds:block/stripped_linden_log"
+  }
+}

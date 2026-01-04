@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/larch_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/larch_planks"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/larch_slab_top"
+    }
+  }
+}

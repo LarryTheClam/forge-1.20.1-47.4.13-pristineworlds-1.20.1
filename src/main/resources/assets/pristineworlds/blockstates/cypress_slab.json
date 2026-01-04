@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/cypress_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/cypress_planks"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/cypress_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "pristineworlds:block/giallo_antico_marble_block"
+  }
+}

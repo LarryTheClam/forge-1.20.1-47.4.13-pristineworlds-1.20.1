@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pristineworlds:cypress_stairs",
+    "pristineworlds:hickory_stairs",
+    "pristineworlds:larch_stairs",
+    "pristineworlds:linden_stairs"
+  ]
+}

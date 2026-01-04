@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pristineworlds:block/porphyry_marble_pillar_top",
+    "side": "pristineworlds:block/porphyry_marble_pillar"
+  }
+}

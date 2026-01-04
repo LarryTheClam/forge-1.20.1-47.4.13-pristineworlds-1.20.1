@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:purple_bricks"
+  },
+  "result": "pristineworlds:purple_brick_stairs"
+}

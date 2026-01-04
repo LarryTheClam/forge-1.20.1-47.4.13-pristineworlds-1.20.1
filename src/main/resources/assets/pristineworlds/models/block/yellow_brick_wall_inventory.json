@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "pristineworlds:block/yellow_bricks1"
+  }
+}

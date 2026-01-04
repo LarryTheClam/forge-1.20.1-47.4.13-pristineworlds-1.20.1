@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:golden_wave_marble_block"
+  },
+  "result": {
+    "item": "pristineworlds:golden_wave_marble_slab"
+  }
+}

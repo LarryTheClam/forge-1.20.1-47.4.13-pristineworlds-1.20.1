@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_granite_slab"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "pristineworlds:chiseled_granite_bricks"
+  }
+}

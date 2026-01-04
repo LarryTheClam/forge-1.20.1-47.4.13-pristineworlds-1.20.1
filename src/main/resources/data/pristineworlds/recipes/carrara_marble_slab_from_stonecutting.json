@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:carrara_marble_block"
+  },
+  "result": {
+    "item": "pristineworlds:carrara_marble_slab"
+  }
+}

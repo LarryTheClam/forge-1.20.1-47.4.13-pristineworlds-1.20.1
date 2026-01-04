@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/white_brick_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/white_bricks1"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/white_brick_slab_top"
+    }
+  }
+}

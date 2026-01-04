@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pristineworlds:block/magenta_bricks6"
+  }
+}

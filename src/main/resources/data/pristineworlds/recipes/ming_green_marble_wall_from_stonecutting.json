@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:ming_green_marble_block"
+  },
+  "result": "pristineworlds:ming_green_marble_wall"
+}

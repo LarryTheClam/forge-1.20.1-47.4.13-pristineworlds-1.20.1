@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:red_lagoon_marble_bricks"
+  },
+  "result": "pristineworlds:red_lagoon_marble_brick_slab"
+}

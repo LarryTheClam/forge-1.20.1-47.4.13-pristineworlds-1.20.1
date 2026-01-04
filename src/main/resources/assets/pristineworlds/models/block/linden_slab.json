@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pristineworlds:block/linden_planks",
+    "side": "pristineworlds:block/linden_planks",
+    "top": "pristineworlds:block/linden_planks"
+  }
+}

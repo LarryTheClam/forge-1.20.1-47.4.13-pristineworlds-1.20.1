@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:blue_calcite_marble_block"
+  },
+  "result": "pristineworlds:blue_calcite_marble_stairs"
+}

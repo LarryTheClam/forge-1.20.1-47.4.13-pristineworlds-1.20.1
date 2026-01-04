@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+    "item": "pristineworlds:larch_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pristineworlds:larch_planks"
+  }
+}

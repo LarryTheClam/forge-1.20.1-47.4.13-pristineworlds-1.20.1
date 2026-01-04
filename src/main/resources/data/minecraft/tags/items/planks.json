@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pristineworlds:cypress_planks",
+    "pristineworlds:hickory_planks",
+    "pristineworlds:larch_planks",
+    "pristineworlds:linden_planks"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pristineworlds:cypress_leaves",
+    "pristineworlds:hickory_leaves",
+    "pristineworlds:larch_leaves",
+    "pristineworlds:linden_leaves"
+  ]
+}

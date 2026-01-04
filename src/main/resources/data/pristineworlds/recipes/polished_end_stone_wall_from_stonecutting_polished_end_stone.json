@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:polished_end_stone"
+  },
+  "result": "pristineworlds:polished_end_stone_wall"
+}

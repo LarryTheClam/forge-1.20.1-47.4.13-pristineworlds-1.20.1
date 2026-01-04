@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:imperial_red_marble_block"
+  },
+  "result": "pristineworlds:imperial_red_marble_brick_wall"
+}

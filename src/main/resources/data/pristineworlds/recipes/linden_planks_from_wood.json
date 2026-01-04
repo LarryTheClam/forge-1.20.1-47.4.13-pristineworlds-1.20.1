@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pristineworlds:linden_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pristineworlds:linden_planks"
+  }
+}

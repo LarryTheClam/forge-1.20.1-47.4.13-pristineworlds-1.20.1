@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:giallo_antico_marble_bricks"
+  },
+  "result": "pristineworlds:giallo_antico_marble_brick_stairs"
+}

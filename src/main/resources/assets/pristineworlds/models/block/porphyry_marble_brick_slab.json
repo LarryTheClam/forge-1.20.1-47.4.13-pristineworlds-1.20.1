@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pristineworlds:block/porphyry_marble_bricks",
+    "side": "pristineworlds:block/porphyry_marble_bricks",
+    "top": "pristineworlds:block/porphyry_marble_bricks"
+  }
+}

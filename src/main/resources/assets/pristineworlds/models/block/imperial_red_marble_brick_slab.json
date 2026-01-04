@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pristineworlds:block/imperial_red_marble_bricks",
+    "side": "pristineworlds:block/imperial_red_marble_bricks",
+    "top": "pristineworlds:block/imperial_red_marble_bricks"
+  }
+}

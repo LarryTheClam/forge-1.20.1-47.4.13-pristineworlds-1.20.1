@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:white_bricks"
+  },
+  "result": "pristineworlds:white_brick_slab"
+}

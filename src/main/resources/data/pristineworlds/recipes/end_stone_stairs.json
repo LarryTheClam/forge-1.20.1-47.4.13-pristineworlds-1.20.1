@@ -1,0 +1,17 @@
+{
+  "type": "miencraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "pristineworlds:end_stone_stairs"
+  }
+}

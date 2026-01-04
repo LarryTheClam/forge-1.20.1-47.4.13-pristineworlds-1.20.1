@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/ming_green_marble_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/ming_green_marble_block"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/ming_green_marble_slab_top"
+    }
+  }
+}

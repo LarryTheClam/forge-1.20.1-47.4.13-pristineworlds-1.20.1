@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pristineworlds:block/silver_chianti_marble_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pristineworlds:block/silver_chianti_marble_pillar"
+    },
+    "axis=z": {
+      "model": "pristineworlds:block/silver_chianti_marble_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

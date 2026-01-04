@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/red_venetian_marble_brick_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/red_venetian_marble_bricks"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/red_venetian_marble_brick_slab_top"
+    }
+  }
+}

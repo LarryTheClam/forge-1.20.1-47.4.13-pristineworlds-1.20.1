@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "pristineworlds:block/calacatta_vagli_marble_pillar_top",
+    "side": "pristineworlds:block/calacatta_vagli_marble_pillar"
+  }
+}

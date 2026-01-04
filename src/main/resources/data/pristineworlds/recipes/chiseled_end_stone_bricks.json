@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "pristineworlds:polished_end_stone_slab"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "pristineworlds:chiseled_end_stone_bricks"
+  }
+}

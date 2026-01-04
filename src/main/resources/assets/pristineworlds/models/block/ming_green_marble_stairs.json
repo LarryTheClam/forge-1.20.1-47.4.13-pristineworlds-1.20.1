@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/ming_green_marble_block",
+    "side": "pristineworlds:block/ming_green_marble_block",
+    "top": "pristineworlds:block/ming_green_marble_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "pristineworlds:block/french_chiffon_marble_block"
+  }
+}

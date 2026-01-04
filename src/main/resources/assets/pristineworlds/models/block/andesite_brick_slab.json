@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pristineworlds:block/andesite_bricks",
+    "side": "pristineworlds:block/andesite_bricks",
+    "top": "pristineworlds:block/andesite_bricks"
+  }
+}

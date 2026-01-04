@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:granite_bricks"
+  },
+  "result": "pristineworlds:granite_brick_wall"
+}

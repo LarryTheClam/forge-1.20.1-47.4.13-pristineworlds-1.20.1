@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:diorite_bricks"
+  },
+  "result": "pristineworlds:diorite_brick_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:gray_bricks"
+  },
+  "result": "pristineworlds:gray_brick_slab"
+}

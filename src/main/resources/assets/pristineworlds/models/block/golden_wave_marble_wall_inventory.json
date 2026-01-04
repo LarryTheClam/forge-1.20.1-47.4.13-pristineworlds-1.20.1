@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "pristineworlds:block/golden_wave_marble_block"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/diorite_bricks",
+    "side": "pristineworlds:block/diorite_bricks",
+    "top": "pristineworlds:block/diorite_bricks"
+  }
+}

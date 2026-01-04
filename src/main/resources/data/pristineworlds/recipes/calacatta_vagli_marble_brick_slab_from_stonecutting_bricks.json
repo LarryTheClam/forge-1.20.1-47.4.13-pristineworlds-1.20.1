@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:calacatta_vagli_marble_bricks"
+  },
+  "result": "pristineworlds:calacatta_vagli_marble_brick_slab"
+}

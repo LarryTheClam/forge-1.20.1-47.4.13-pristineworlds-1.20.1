@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "pristineworlds:block/imperial_red_marble_block"
+  }
+}

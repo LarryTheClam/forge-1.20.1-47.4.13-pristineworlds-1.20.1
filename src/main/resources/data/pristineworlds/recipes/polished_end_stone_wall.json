@@ -1,0 +1,16 @@
+{
+  "type": "miencraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "pristineworlds:polished_end_stone"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "pristineworlds:polished_end_stone_wall"
+  }
+}

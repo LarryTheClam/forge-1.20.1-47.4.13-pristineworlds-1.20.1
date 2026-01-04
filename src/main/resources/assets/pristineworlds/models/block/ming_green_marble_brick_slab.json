@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pristineworlds:block/ming_green_marble_bricks",
+    "side": "pristineworlds:block/ming_green_marble_bricks",
+    "top": "pristineworlds:block/ming_green_marble_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    {
+      "item": "pristineworlds:stripped_hickory_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pristineworlds:hickory_planks"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_andesite_slab"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "pristineworlds:chiseled_andesite_bricks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:porphyry_marble_block"
+  },
+  "result": {
+    "item": "pristineworlds:porphyry:marble_slab"
+  }
+}

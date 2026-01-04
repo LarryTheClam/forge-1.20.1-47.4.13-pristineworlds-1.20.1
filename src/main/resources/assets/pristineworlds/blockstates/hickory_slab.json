@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/hickory_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/hickory_planks"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/hickory_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/peridotite",
+    "side": "pristineworlds:block/peridotite",
+    "top": "pristineworlds:block/peridotite"
+  }
+}

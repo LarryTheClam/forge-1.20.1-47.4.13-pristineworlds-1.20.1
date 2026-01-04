@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:andesite_bricks"
+  },
+  "result": "pristineworlds:chiseled_andesite_bricks"
+}

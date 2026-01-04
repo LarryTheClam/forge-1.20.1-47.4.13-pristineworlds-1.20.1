@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pristineworlds:hickory_planks"
+    }
+  ],
+  "result": {
+    "item": "pristineworlds:hickory_button"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "pristineworlds:cypress_log",
+    "pristineworlds:cypress_wood",
+    "pristineworlds:stripped_cypress_log",
+    "pristineworlds:stripped_cypress_wood",
+    "pristineworlds:hickory_log",
+    "pristineworlds:hickory_wood",
+    "pristineworlds:stripped_hickory_log",
+    "pristineworlds:stripped_hickory_wood",
+    "pristineworlds:larch_log",
+    "pristineworlds:larch_wood",
+    "pristineworlds:stripped_larch_log",
+    "pristineworlds:stripped_larch_wood",
+    "pristineworlds:linden_log",
+    "pristineworlds:linden_wood",
+    "pristineworlds:stripped_linden_log",
+    "pristineworlds:stripped_linden_wood"
+
+  ]
+}

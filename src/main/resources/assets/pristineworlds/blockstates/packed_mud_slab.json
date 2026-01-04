@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/packed_mud_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/packed_mud"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/packed_mud_slab_top"
+    }
+  }
+}

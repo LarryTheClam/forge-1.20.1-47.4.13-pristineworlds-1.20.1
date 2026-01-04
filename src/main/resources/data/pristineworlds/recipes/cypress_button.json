@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pristineworlds:cypress_planks"
+    }
+  ],
+  "result": {
+    "item": "pristineworlds:cypress_button"
+  }
+}

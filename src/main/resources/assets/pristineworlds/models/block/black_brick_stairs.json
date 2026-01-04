@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/black_bricks1",
+    "side": "pristineworlds:block/black_bricks1",
+    "top": "pristineworlds:block/black_bricks1"
+  }
+}

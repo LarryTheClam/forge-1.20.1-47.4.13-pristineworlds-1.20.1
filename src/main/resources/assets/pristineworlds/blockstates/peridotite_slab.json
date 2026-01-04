@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/peridotite_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/peridotite"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/peridotite_slab_top"
+    }
+  }
+}

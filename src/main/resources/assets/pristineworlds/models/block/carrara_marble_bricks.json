@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pristineworlds:block/carrara_marble_bricks"
+  }
+}

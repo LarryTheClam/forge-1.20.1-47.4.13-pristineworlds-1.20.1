@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "pristineworlds:block/casa_marmi_marble_block",
+    "side": "pristineworlds:block/casa_marmi_marble_block",
+    "top": "pristineworlds:block/casa_marmi_marble_block"
+  }
+}

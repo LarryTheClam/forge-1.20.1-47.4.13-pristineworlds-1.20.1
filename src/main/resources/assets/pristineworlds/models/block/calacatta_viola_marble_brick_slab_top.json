@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "pristineworlds:block/calacatta_viola_marble_bricks",
+    "side": "pristineworlds:block/calacatta_viola_marble_bricks",
+    "top": "pristineworlds:block/calacatta_viola_marble_bricks"
+  }
+}

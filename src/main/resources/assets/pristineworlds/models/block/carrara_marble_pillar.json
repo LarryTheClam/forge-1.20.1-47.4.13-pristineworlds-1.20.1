@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pristineworlds:block/carrara_marble_pillar_top",
+    "side": "pristineworlds:block/carrara_marble_pillar"
+  }
+}
+

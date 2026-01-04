@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:french_chiffon_marble_block"
+  },
+  "result": {
+    "item": "pristineworlds:french_chiffon_marble_slab"
+  }
+}

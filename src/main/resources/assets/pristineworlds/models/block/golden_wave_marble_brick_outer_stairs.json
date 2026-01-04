@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/golden_wave_marble_bricks",
+    "side": "pristineworlds:block/golden_wave_marble_bricks",
+    "top": "pristineworlds:block/golden_wave_marble_bricks"
+  }
+}

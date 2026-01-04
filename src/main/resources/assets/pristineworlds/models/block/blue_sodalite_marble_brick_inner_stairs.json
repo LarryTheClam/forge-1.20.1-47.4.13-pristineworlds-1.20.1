@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/blue_sodalite_marble_bricks",
+    "side": "pristineworlds:block/blue_sodalite_marble_bricks",
+    "top": "pristineworlds:block/blue_sodalite_marble_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:calacatta_viola_marble_block"
+  },
+  "result": "pristineworlds:calacatta_viola_marble_brick_wall"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:porphyry_marble_bricks"
+  },
+  "result": "pristineworlds:porphyry_marble_brick_wall"
+}

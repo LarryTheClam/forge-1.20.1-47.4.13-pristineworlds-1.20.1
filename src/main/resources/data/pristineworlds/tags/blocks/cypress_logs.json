@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pristineworlds:cypress_log",
+    "pristineworlds:cypress_wood",
+    "pristineworlds:stripped_cypress_log",
+    "pristineworlds:stripped_cypress_wood"
+  ]
+}

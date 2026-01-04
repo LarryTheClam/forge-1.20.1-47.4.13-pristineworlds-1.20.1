@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/polished_stone_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/polished_stone"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/polished_stone_slab_top"
+    }
+  }
+}

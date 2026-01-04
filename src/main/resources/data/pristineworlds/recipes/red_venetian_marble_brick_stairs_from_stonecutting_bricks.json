@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "pristineworlds:red_venetian_marble_bricks"
+  },
+  "result": "pristineworlds:red_venetian_marble_brick_stairs"
+}

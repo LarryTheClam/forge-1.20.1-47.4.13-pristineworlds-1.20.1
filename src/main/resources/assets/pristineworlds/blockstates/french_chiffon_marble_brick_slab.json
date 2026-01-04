@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/french_chiffon_marble_brick_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/french_chiffon_marble_bricks"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/french_chiffon_marble_brick_slab_top"
+    }
+  }
+}

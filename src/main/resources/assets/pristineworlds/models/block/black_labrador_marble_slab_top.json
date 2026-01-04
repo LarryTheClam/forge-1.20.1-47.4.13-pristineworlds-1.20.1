@@ -1,0 +1,8 @@
+{
+  "variants": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "pristineworlds:block/black_labrador_marble_block",
+    "side": "pristineworlds:block/black_labrador_marble_block",
+    "top": "pristineworlds:block/black_labrador_marble_block"
+  }
+}

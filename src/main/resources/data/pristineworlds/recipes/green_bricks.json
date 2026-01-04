@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pristineworlds:green_brick"
+    }
+  },
+  "result": {
+    "item": "pristineworlds:green_bricks"
+  }
+}

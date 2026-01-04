@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:calacatta_viola_marble_block"
+  },
+  "result": {
+    "item": "pristineworlds:calacatta_viola_marble_slab"
+  }
+}

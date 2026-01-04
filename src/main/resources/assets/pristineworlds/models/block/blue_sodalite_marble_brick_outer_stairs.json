@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "texture": {
+    "bottom": "pristineworlds:block/blue_sodalite_marble_bricks",
+    "side": "pristineworlds:block/blue_sodalite_marble_bricks",
+    "top": "pristineworlds:block/blue_sodalite_marble_bricks"
+  }
+}

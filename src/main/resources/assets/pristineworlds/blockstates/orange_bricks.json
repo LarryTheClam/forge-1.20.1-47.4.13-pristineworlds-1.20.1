@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "pristineworlds:block/orange_bricks1"
+      },
+      {
+        "model": "pristineworlds:block/orange_bricks2"
+      },
+      {
+        "model": "pristineworlds:block/orange_bricks3"
+      },
+      {
+        "model": "pristineworlds:block/orange_bricks4"
+      },
+      {
+        "model": "pristineworlds:block/orange_bricks5"
+      },
+      {
+        "model": "pristineworlds:block/orange_bricks6"
+      }
+    ]
+  }
+}

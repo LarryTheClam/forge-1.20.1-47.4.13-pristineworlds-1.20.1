@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:silver_chianti_marble_block"
+  },
+  "result": "pristineworlds:silver_chianti_marble_brick_slab"
+}

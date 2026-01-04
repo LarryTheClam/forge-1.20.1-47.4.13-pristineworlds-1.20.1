@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pristineworlds:malachite_marble_block"
+  },
+  "result": {
+    "item": "pristineworlds:malachite_marble_slab"
+  }
+}

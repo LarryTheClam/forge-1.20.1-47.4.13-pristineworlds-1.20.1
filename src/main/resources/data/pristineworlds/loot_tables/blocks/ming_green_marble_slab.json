@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pristineworlds:ming_green_marble_slab"
+        }
+      ]
+    }
+  ]
+}
