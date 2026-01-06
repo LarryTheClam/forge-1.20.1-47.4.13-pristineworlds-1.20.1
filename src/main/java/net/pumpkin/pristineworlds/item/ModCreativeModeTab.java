@@ -456,7 +456,7 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLACK_BRICK.get()))
                     .title(Component.translatable("creativetab.pristineworlds_spawn_eggs"))
                     .displayItems((pParameters, pOutput) -> {
-
+                        pOutput.accept(ModItems.EEPER_SPAWN_EGG.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_MOB_LOOT = CREATIVE_MODE_TAB.register("pristineworlds_mob_loots",

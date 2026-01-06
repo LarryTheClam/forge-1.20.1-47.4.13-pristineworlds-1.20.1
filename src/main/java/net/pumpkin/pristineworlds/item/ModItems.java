@@ -2,6 +2,7 @@ package net.pumpkin.pristineworlds.item;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.monster.Illusioner;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.HangingSignItem;
 import net.minecraft.world.item.Item;
@@ -15,6 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pumpkin.pristineworlds.PristineWorlds;
 import net.pumpkin.pristineworlds.block.ModBlocks;
+import net.pumpkin.pristineworlds.entity.ModEntities;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -89,6 +91,9 @@ public class ModItems {
 
     //I want to breed
 
+
+    public static final RegistryObject<Item> EEPER_SPAWN_EGG = ITEMS.register("eeper_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.EEPER, 0xE07AFA, 0x44792D, new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
