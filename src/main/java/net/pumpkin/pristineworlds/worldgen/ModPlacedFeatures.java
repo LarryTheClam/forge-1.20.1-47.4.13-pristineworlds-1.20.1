@@ -36,6 +36,11 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> RED_VENETIAN_PLACED_KEY= registerKey("red_venetian_placed");
     public static final ResourceKey<PlacedFeature> SILVER_CHIANTI_PLACED_KEY= registerKey("silver_chianti_placed");
 
+    public static final ResourceKey<PlacedFeature> BRIMSTONE_PLACED_KEY = registerKey("brimstone_placed");
+    public static final ResourceKey<PlacedFeature> BLUESTONE_PLACED_KEY = registerKey("bluestone_placed");
+    public static final ResourceKey<PlacedFeature> LIMESTONE_PLACED_KEY = registerKey("limestone_placed");
+    public static final ResourceKey<PlacedFeature> PERIDOTITE_PLACED_KEY = registerKey("peridotite_placed");
+
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
         register(context, BLACK_CALACATTA_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLACK_CALACATTA_KEY),
@@ -95,6 +100,19 @@ public class ModPlacedFeatures {
         register(context, SILVER_CHIANTI_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVER_CHIANTI_KEY),
                 ModOrePlacement.commonOrePlacement(2,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-8), VerticalAnchor.absolute(40))));
+
+        register(context, BRIMSTONE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BRIMSTONE_KEY),
+                ModOrePlacement.commonOrePlacement(12,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(34))));
+        register(context, BLUESTONE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLUESTONE_KEY),
+                ModOrePlacement.commonOrePlacement(2,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60))));
+        register(context, LIMESTONE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LIMESTONE_KEY),
+                ModOrePlacement.commonOrePlacement(2,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60))));
+        register(context, PERIDOTITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PERIDOTITE_KEY),
+                ModOrePlacement.commonOrePlacement(2,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60))));
     }
     private static ResourceKey<PlacedFeature> registerKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(PristineWorlds.MOD_ID, name));

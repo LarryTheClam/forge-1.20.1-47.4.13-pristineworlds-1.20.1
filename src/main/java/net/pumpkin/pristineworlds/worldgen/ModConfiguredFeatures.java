@@ -40,6 +40,11 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> RED_VENETIAN_KEY = registerKey("red_venetian");
     public static final ResourceKey<ConfiguredFeature<?, ?>> SILVER_CHIANTI_KEY = registerKey("silver_chianti");
 
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BRIMSTONE_KEY = registerKey("brimstone");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BLUESTONE_KEY = registerKey("bluestone");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> LIMESTONE_KEY = registerKey("limestone");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> PERIDOTITE_KEY = registerKey("peridotite");
+
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
@@ -104,6 +109,15 @@ public class ModConfiguredFeatures {
                         ModBlocks.SILVER_CHIANTI_MARBLE_BLOCK.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.SILVER_CHIANTI_MARBLE_BLOCK.get().defaultBlockState()));
 
+        List<OreConfiguration.TargetBlockState> BRIMSTONE_SPAWN = List.of(OreConfiguration.target(netherrackReplacables,
+                ModBlocks.BRIMSTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> BLUESTONE_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
+                ModBlocks.BLUESTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> LIMESTONE_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
+                ModBlocks.LIMESTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> PERIDOTITE_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
+                ModBlocks.PERIDOTITE.get().defaultBlockState()));
+
         register(context, BLACK_CALACATTA_KEY, Feature.ORE, new OreConfiguration(BLACK_CALACATTA_SPAWN,64));
         register(context, BLACK_LABRADOR_KEY, Feature.ORE, new OreConfiguration(BLACK_LABRADOR_SPAWN,64));
         register(context, BLUE_BAY_KEY, Feature.ORE, new OreConfiguration(BLUE_BAY_SPAWN,64));
@@ -123,6 +137,12 @@ public class ModConfiguredFeatures {
         register(context, RED_LAGOON_KEY, Feature.ORE, new OreConfiguration(RED_LAGOON_SPAWN,64));
         register(context, RED_VENETIAN_KEY, Feature.ORE, new OreConfiguration(RED_VENETIAN_SPAWN,64));
         register(context, SILVER_CHIANTI_KEY, Feature.ORE, new OreConfiguration(SILVER_CHIANTI_SPAWN,64));
+
+        register(context, BRIMSTONE_KEY, Feature.ORE, new OreConfiguration(BRIMSTONE_SPAWN,64));
+        register(context, BLUESTONE_KEY, Feature.ORE, new OreConfiguration(BLUESTONE_SPAWN,64));
+        register(context, LIMESTONE_KEY, Feature.ORE, new OreConfiguration(LIMESTONE_SPAWN,64));
+        register(context, PERIDOTITE_KEY, Feature.ORE, new OreConfiguration(PERIDOTITE_SPAWN,64));
+
     }
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(PristineWorlds.MOD_ID, name));
