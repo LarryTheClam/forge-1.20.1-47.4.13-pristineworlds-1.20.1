@@ -271,6 +271,15 @@
     "pristineworlds:polished_end_stone_stairs",
     "pristineworlds:polished_end_stone_slab",
     "pristineworlds:polished_end_stone_wall",
-    "pristineworlds:chiseled_end_stone_bricks"
+    "pristineworlds:chiseled_end_stone_bricks",
+
+    "pristineworlds:peridotite",
+    "pristineworlds:peridotite_stairs",
+    "pristineworlds:peridotite_slab",
+    "pristineworlds:peridotite_wall",
+
+    "pristineworlds:brimstone",
+    "pristineworlds:bluestone",
+    "pristineworlds:limestone"
   ]
 }

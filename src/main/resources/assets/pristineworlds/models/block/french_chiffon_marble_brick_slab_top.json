@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "pristineworlds:block/french_chiffon_marble_bricks",
     "side": "pristineworlds:block/french_chiffon_marble_bricks",
-    "top": "pristineworlds:block/french_chiffon_marble_bricks",
+    "top": "pristineworlds:block/french_chiffon_marble_bricks"
   }
 }

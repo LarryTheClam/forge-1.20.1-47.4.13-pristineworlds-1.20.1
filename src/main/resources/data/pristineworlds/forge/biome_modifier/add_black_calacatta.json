@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "pristineworlds:black_calacatta_placed",
+  "step": "underground_ores"
+}

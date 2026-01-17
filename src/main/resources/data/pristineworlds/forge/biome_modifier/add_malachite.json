@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:swamp",
+  "features": "pristineworlds:malachite_placed",
+  "step": "underground_ores"
+}

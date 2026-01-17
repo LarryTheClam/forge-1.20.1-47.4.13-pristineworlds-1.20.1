@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pristineworlds:block/brimstone_slab"
+    },
+    "type=double": {
+      "model": "pristineworlds:block/brimstone"
+    },
+    "type=top": {
+      "model": "pristineworlds:block/brimstone_slab_top"
+    }
+  }
+}

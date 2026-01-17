@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:stony_shore",
+  "features": "pristineworlds:calacatta_viola_placed",
+  "step": "underground_ores"
+}

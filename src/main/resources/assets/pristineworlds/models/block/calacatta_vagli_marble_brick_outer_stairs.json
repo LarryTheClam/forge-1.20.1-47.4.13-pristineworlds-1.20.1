@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/outer_stars",
+  "parent": "minecraft:block/outer_stairs",
   "textures": {
     "bottom": "pristineworlds:block/calacatta_vagli_marble_bricks",
     "side": "pristineworlds:block/calacatta_vagli_marble_bricks",

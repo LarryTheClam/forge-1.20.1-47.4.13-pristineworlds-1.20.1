@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_hill",
+  "features": "pristineworlds:golden_wave_placed",
+  "step": "underground_ores"
+}

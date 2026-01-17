@@ -100,7 +100,7 @@
       "y": 270
     },
     "facing=south,half=bottom,shape=inner_left": {
-      "model": "pristineworlds:block/porphyry_marble_inner"
+      "model": "pristineworlds:block/porphyry_marble_inner_stairs"
     },
     "facing=south,half=bottom,shape=inner_right": {
       "model": "pristineworlds:block/porphyry_marble_inner_stairs",

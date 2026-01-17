@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/limestone",
+    "side": "pristineworlds:block/limestone",
+    "top": "pristineworlds:block/limestone"
+  }
+}

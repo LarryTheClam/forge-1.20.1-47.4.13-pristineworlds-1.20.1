@@ -71,6 +71,11 @@
     "pristineworlds:calcite_wall",
     "pristineworlds:polished_calcite_wall",
     "pristineworlds:end_stone_wall",
-    "pristineworlds:polished_end_stone_wall"
+    "pristineworlds:polished_end_stone_wall",
+
+    "pristineworlds:peridotite_wall",
+    "pristineworlds:brimstone_wall",
+    "pristineworlds:bluestone_wall",
+    "pristineworlds:limestone_wall"
   ]
 }

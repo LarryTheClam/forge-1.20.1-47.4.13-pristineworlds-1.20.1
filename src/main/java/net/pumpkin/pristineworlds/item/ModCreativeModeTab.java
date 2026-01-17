@@ -3,12 +3,10 @@ package net.pumpkin.pristineworlds.item;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pumpkin.pristineworlds.PristineWorlds;
 import net.pumpkin.pristineworlds.block.ModBlocks;
@@ -346,14 +344,30 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.POLISHED_STONE_WALL.get());
                         pOutput.accept(ModBlocks.STONE_WALL.get());
 
+                        pOutput.accept(ModBlocks.DEEPSLATE_STAIRS.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SLAB.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_WALL.get());
+
                         pOutput.accept(ModBlocks.PERIDOTITE.get());
                         pOutput.accept(ModBlocks.PERIDOTITE_STAIRS.get());
                         pOutput.accept(ModBlocks.PERIDOTITE_SLAB.get());
                         pOutput.accept(ModBlocks.PERIDOTITE_WALL.get());
 
-                        pOutput.accept(ModBlocks.DEEPSLATE_STAIRS.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_SLAB.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_WALL.get());
+                        pOutput.accept(ModBlocks.BRIMSTONE.get());
+                        pOutput.accept(ModBlocks.BRIMSTONE_STAIRS.get());
+                        pOutput.accept(ModBlocks.BRIMSTONE_SLAB.get());
+                        pOutput.accept(ModBlocks.BRIMSTONE_WALL.get());
+
+                        pOutput.accept(ModBlocks.BLUESTONE.get());
+                        pOutput.accept(ModBlocks.BLUESTONE_STAIRS.get());
+                        pOutput.accept(ModBlocks.BLUESTONE_SLAB.get());
+                        pOutput.accept(ModBlocks.BLUESTONE_WALL.get());
+
+                        pOutput.accept(ModBlocks.LIMESTONE.get());
+                        pOutput.accept(ModBlocks.LIMESTONE_STAIRS.get());
+                        pOutput.accept(ModBlocks.LIMESTONE_SLAB.get());
+                        pOutput.accept(ModBlocks.LIMESTONE_WALL.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_WOODS = CREATIVE_MODE_TAB.register("pristineworlds_woodss",
@@ -456,7 +470,6 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLACK_BRICK.get()))
                     .title(Component.translatable("creativetab.pristineworlds_spawn_eggs"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.EEPER_SPAWN_EGG.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_MOB_LOOT = CREATIVE_MODE_TAB.register("pristineworlds_mob_loots",

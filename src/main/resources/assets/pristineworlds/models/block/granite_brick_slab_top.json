@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "pristineworlds:block/granite_bricks",
     "side": "pristineworlds:block/granite_bricks",
-    "top": "pristineworlds:block/grantite_bricks"
+    "top": "pristineworlds:block/granite_bricks"
   }
 }

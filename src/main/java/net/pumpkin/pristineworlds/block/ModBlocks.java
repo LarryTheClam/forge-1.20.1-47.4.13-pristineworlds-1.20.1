@@ -862,6 +862,46 @@ public class ModBlocks {
     public static final RegistryObject<Block> PERIDOTITE_WALL = registerBlock("peridotite_wall",
             ()->new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()));
+    
+    public static final RegistryObject<Block> BRIMSTONE = registerBlock("brimstone",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BRIMSTONE_STAIRS = registerBlock("brimstone_stairs",
+            ()->new StairBlock(()-> Blocks.STONE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BRIMSTONE_SLAB = registerBlock("brimstone_slab",
+            ()->new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BRIMSTONE_WALL = registerBlock("brimstone_wall",
+            ()->new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    
+    
+    public static final RegistryObject<Block> BLUESTONE = registerBlock("bluestone",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLUESTONE_STAIRS = registerBlock("bluestone_stairs",
+            ()->new StairBlock(()-> Blocks.STONE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLUESTONE_SLAB = registerBlock("bluestone_slab",
+            ()->new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLUESTONE_WALL = registerBlock("bluestone_wall",
+            ()->new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    
+    public static final RegistryObject<Block> LIMESTONE = registerBlock("limestone",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIMESTONE_STAIRS = registerBlock("limestone_stairs",
+            ()->new StairBlock(()-> Blocks.STONE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIMESTONE_SLAB = registerBlock("limestone_slab",
+            ()->new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIMESTONE_WALL = registerBlock("limestone_wall",
+            ()->new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> CALCITE_STAIRS = registerBlock("calcite_stairs",
             ()->new StairBlock(()-> Blocks.CALCITE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)

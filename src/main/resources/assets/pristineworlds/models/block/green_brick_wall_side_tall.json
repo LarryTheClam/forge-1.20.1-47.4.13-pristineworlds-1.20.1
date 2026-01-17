@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side_tall",
   "textures": {
-    "wall": "pristineworld:block/green_bricks1"
+    "wall": "pristineworlds:block/green_bricks1"
   }
 }

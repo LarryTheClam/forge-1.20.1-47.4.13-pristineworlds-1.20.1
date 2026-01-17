@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_savannah",
+  "features": "pristineworlds:giallo_antico_placed",
+  "step": "underground_ores"
+}

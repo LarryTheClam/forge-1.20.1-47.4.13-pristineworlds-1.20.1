@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:mangrove_swamp",
+  "features": "pristineworlds:ming_green_placed",
+  "step": "underground_ores"
+}
