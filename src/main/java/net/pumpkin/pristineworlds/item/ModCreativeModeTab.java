@@ -389,8 +389,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.CYPRESS_TRAPDOOR.get());
                         pOutput.accept(ModItems.CYPRESS_SIGN.get());
                         pOutput.accept(ModItems.CYPRESS_HANGING_SIGN.get());
-                        //Cypress Boat
-                        //Cypress Chest Boat
+                        pOutput.accept(ModItems.CYPRESS_BOAT.get());
+                        pOutput.accept(ModItems.CYPRESS_CHEST_BOAT.get());
                         pOutput.accept(ModBlocks.CYPRESS_LEAVES.get());
                         pOutput.accept(ModBlocks.CYPRESS_SAPLING.get());
 
@@ -410,8 +410,8 @@ public class ModCreativeModeTab {
                         //Hickory Trapdoor
                         pOutput.accept(ModItems.HICKORY_SIGN.get());
                         pOutput.accept(ModItems.HICKORY_HANGING_SIGN.get());
-                        //Hickory Boat
-                        //Hickory Chest Boat
+                        pOutput.accept(ModItems.HICKORY_BOAT.get());
+                        pOutput.accept(ModItems.HICKORY_CHEST_BOAT.get());
                         pOutput.accept(ModBlocks.HICKORY_LEAVES.get());
                         pOutput.accept(ModBlocks.HICKORY_SAPLING.get());
 
@@ -430,8 +430,8 @@ public class ModCreativeModeTab {
                         //Larch Trapdoor
                         pOutput.accept(ModItems.LARCH_SIGN.get());
                         pOutput.accept(ModItems.LARCH_HANGING_SIGN.get());
-                        //Larch Boat
-                        //Larch Chest Boat
+                        pOutput.accept(ModItems.LARCH_BOAT.get());
+                        pOutput.accept(ModItems.LARCH_CHEST_BOAT.get());
                         pOutput.accept(ModBlocks.LARCH_LEAVES.get());
                         pOutput.accept(ModBlocks.LARCH_SAPLING.get());
 
@@ -450,8 +450,8 @@ public class ModCreativeModeTab {
                         //Linden Trapdoor
                         pOutput.accept(ModItems.LINDEN_SIGN.get());
                         pOutput.accept(ModItems.LINDEN_HANGING_SIGN.get());
-                        //Linden Boat
-                        //Linden Chest Boat
+                        pOutput.accept(ModItems.LINDEN_BOAT.get());
+                        pOutput.accept(ModItems.LINDEN_CHEST_BOAT.get());
                         pOutput.accept(ModBlocks.LINDEN_LEAVES.get());
                         pOutput.accept(ModBlocks.LINDEN_SAPLING.get());
                     }).build());

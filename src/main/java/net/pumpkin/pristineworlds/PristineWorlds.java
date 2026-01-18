@@ -2,6 +2,7 @@ package net.pumpkin.pristineworlds;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.Sheets;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -15,6 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.pumpkin.pristineworlds.block.ModBlocks;
 import net.pumpkin.pristineworlds.entity.ModBlockEntities;
 import net.pumpkin.pristineworlds.entity.ModEntities;
+import net.pumpkin.pristineworlds.entity.client.ModBoatRenderer;
 import net.pumpkin.pristineworlds.item.ModCreativeModeTab;
 import net.pumpkin.pristineworlds.item.ModItems;
 import net.pumpkin.pristineworlds.util.ModWoodTypes;
@@ -76,6 +78,8 @@ public class PristineWorlds
             Sheets.addWoodType(ModWoodTypes.LARCH);
             Sheets.addWoodType(ModWoodTypes.LINDEN);
 
+            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
         }
     }

@@ -370,6 +370,8 @@
   "block.pristineworlds.cypress_hanging_sign": "Cypress Hanging Sign",
   "block.pristineworlds.cypress_door": "Cypress Door",
   "block.pristineworlds.cypress_trapdoor": "Cypress Trapdoor",
+  "item.pristineworlds.cypress_boat": "Cypress Boat",
+  "item.pristineworlds.cypress_chest_boat": "Cypress Chest Boat",
 
   "block.pristineworlds.hickory_log": "Hickory Log",
   "block.pristineworlds.hickory_wood": "Hickory Wood",
@@ -386,6 +388,8 @@
   "block.pristineworlds.hickory_pressure_plate": "Hickory Pressure Plate",
   "block.pristineworlds.hickory_sign": "Hickory Sign",
   "block.pristineworlds.hickory_hanging_sign": "Hickory Hanging Sign",
+  "item.pristineworlds.hickory_boat": "Hickory Boat",
+  "item.pristineworlds.hickory_chest_boat": "Hickory Chest Boat",
 
   "block.pristineworlds.larch_log": "Larch Log",
   "block.pristineworlds.larch_wood": "Larch Wood",
@@ -402,6 +406,8 @@
   "block.pristineworlds.larch_pressure_plate": "Larch Pressure Plate",
   "block.pristineworlds.larch_sign": "Larch Sign",
   "block.pristineworlds.larch_hanging_sign": "Larch Hanging Sign",
+  "item.pristineworlds.larch_boat": "Larch Boat",
+  "item.pristineworlds.larch_chest_boat": "Larch Chest Boat",
 
   "block.pristineworlds.linden_log": "Linden Log",
   "block.pristineworlds.linden_wood": "Linden Wood",
@@ -418,13 +424,17 @@
   "block.pristineworlds.linden_pressure_plate": "Linden Pressure Plate",
   "block.pristineworlds.linden_sign": "Linden Sign",
   "block.pristineworlds.linden_hanging_sign": "Linden Hanging Sign",
+  "item.pristineworlds.linden_boat": "Linden Boat",
+  "item.pristineworlds.linden_chest_boat": "Linden Chest Boat",
 
+
+
+  "entity.pristineworlds.mod_chest_boat": "Boat with Chest",
   "block.pristineworlds.banana_block": "Banana Block",
 
   "item.pristineworlds.kelp_sandwich": "Kelp Sandwich",
   "item.pristineworlds.kelp_and_pork_sandwich": "Kelp and Pork Sandwich",
 
-  "item.pristineworlds.eeper_spawn_egg": "Eeper Spawn Egg",
 
   "creativetab.pristineworlds_bricks": "PristineWorlds Bricks",
   "creativetab.pristineworlds_marble": "PristineWorlds Marble",
