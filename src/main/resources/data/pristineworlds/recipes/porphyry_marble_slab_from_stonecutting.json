@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:porphyry_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:porphyry:marble_slab"
-  }
+  "result": "pristineworlds:porphyry_marble_slab"
 }

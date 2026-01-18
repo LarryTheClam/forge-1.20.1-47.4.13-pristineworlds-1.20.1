@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:silver_chianti_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:silver_chianti_marble_slab"
-  }
+  "result": "pristineworlds:silver_chianti_marble_slab"
 }

@@ -385,8 +385,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.CYPRESS_FENCE_GATE.get());
                         pOutput.accept(ModBlocks.CYPRESS_BUTTON.get());
                         pOutput.accept(ModBlocks.CYPRESS_PRESSURE_PLATE.get());
-                        //Cypress Door
-                        //Cypress Trapdoor
+                        pOutput.accept(ModBlocks.CYPRESS_DOOR.get());
+                        pOutput.accept(ModBlocks.CYPRESS_TRAPDOOR.get());
                         pOutput.accept(ModItems.CYPRESS_SIGN.get());
                         pOutput.accept(ModItems.CYPRESS_HANGING_SIGN.get());
                         //Cypress Boat

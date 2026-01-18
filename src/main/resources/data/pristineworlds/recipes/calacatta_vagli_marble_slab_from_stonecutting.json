@@ -2,9 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "pristineworlds:calcatta_vagli_marble_block"
+    "item": "pristineworlds:calacatta_vagli_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:calcatta_vagli_marble_slab"
-  }
+  "result": "pristineworlds:calcatta_vagli_marble_slab"
 }

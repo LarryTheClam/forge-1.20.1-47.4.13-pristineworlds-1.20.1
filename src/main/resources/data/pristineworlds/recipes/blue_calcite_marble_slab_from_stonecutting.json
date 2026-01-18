@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:blue_calcite_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:blue_calcite_marble_slab"
-  }
+  "result": "pristineworlds:blue_calcite_marble_slab"
 }

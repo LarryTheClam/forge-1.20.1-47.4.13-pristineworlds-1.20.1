@@ -1169,6 +1169,13 @@ Bober Kurwa
     public static final RegistryObject<Block> CYPRESS_WALL_HANGING_SIGN = BLOCKS.register("cypress_wall_hanging_sign",
             () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.CYPRESS));
 
+    public static final RegistryObject<Block> CYPRESS_DOOR = registerBlock("cypress_door",
+            ()-> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+            BlockSetType.OAK));
+    public static final RegistryObject<Block> CYPRESS_TRAPDOOR = registerBlock("cypress_trapdoor",
+            ()-> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+                    BlockSetType.OAK));
+
 
     public static final RegistryObject<Block> HICKORY_LOG = registerBlock("hickory_log",
             ()->new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
