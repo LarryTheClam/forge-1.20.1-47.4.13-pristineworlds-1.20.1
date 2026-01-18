@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:french_chiffon_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:french_chiffon_marble_slab"
-  }
+  "result": "pristineworlds:french_chiffon_marble_slab"
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "pristineworlds:calacatta_vagli_marble_block",
+      "item": "pristineworlds:calacatta_vagli_marble_block"
     }
   },
   "pattern": [

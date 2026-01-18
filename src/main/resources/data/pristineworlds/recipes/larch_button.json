@@ -3,7 +3,7 @@
   "group": "wooden_button",
   "ingredients": [
     {
-      "item": "minecraft:larch_planks"
+      "item": "pristineworlds:larch_planks"
     }
   ],
   "result": {

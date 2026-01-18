@@ -21,6 +21,10 @@ import net.pumpkin.pristineworlds.PristineWorlds;
 import net.pumpkin.pristineworlds.block.custom.*;
 import net.pumpkin.pristineworlds.item.ModItems;
 import net.pumpkin.pristineworlds.util.ModWoodTypes;
+import net.pumpkin.pristineworlds.worldgen.tree.CypressTreeGrower;
+import net.pumpkin.pristineworlds.worldgen.tree.HickoryTreeGrower;
+import net.pumpkin.pristineworlds.worldgen.tree.LarchTreeGrower;
+import net.pumpkin.pristineworlds.worldgen.tree.LindenTreeGrower;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -1009,8 +1013,8 @@ Bober Kurwa
     public static final RegistryObject<Block> STRIPPED_CYPRESS_WOOD = registerBlock("stripped_cypress_wood",
             ()->new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
 
-//    public static final RegistryObject<Block> CYPRESS_SAPLING = registerBlock("cypress_sapling",
-//            ()->new SaplingBlock(new CypressTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> CYPRESS_SAPLING = registerBlock("cypress_sapling",
+            ()->new SaplingBlock(new CypressTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> CYPRESS_LEAVES = registerBlock("cypress_leaves",
             ()->new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
@@ -1176,8 +1180,8 @@ Bober Kurwa
     public static final RegistryObject<Block> STRIPPED_HICKORY_WOOD = registerBlock("stripped_hickory_wood",
             ()->new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
 
-   // public static final RegistryObject<Block> HICKORY_SAPLING = registerBlock("hickory_sapling",
-     //       ()->new SaplingBlock(new HickoryTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> HICKORY_SAPLING = registerBlock("hickory_sapling",
+            ()->new SaplingBlock(new HickoryTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> HICKORY_LEAVES = registerBlock("hickory_leaves",
             ()->new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
@@ -1343,8 +1347,8 @@ Bober Kurwa
     public static final RegistryObject<Block> STRIPPED_LARCH_WOOD = registerBlock("stripped_larch_wood",
             ()->new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
 
-  //  public static final RegistryObject<Block> LARCH_SAPLING = registerBlock("larch_sapling",
-         //   ()->new SaplingBlock(new LarchTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> LARCH_SAPLING = registerBlock("larch_sapling",
+            ()->new SaplingBlock(new LarchTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> LARCH_LEAVES = registerBlock("larch_leaves",
             ()->new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
@@ -1510,8 +1514,8 @@ Bober Kurwa
     public static final RegistryObject<Block> STRIPPED_LINDEN_WOOD = registerBlock("stripped_linden_wood",
             ()->new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
 
- //   public static final RegistryObject<Block> LINDEN_SAPLING = registerBlock("linden_sapling",
-      //      ()->new SaplingBlock(new LindenTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> LINDEN_SAPLING = registerBlock("linden_sapling",
+            ()->new SaplingBlock(new LindenTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> LINDEN_LEAVES = registerBlock("linden_leaves",
             ()->new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {

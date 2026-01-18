@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pristineworlds:block/blue_bay_marble_wall"
+          "name": "pristineworlds:blue_bay_marble_wall"
         }
       ]
     }

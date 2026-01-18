@@ -392,7 +392,7 @@ public class ModCreativeModeTab {
                         //Cypress Boat
                         //Cypress Chest Boat
                         pOutput.accept(ModBlocks.CYPRESS_LEAVES.get());
-               //         pOutput.accept(ModBlocks.CYPRESS_SAPLING.get());
+                        pOutput.accept(ModBlocks.CYPRESS_SAPLING.get());
 
 
                         pOutput.accept(ModBlocks.HICKORY_LOG.get());
@@ -413,7 +413,7 @@ public class ModCreativeModeTab {
                         //Hickory Boat
                         //Hickory Chest Boat
                         pOutput.accept(ModBlocks.HICKORY_LEAVES.get());
-                //        pOutput.accept(ModBlocks.HICKORY_SAPLING.get());
+                        pOutput.accept(ModBlocks.HICKORY_SAPLING.get());
 
                         pOutput.accept(ModBlocks.LARCH_LOG.get());
                         pOutput.accept(ModBlocks.LARCH_WOOD.get());
@@ -433,7 +433,7 @@ public class ModCreativeModeTab {
                         //Larch Boat
                         //Larch Chest Boat
                         pOutput.accept(ModBlocks.LARCH_LEAVES.get());
-                  //      pOutput.accept(ModBlocks.LARCH_SAPLING.get());
+                        pOutput.accept(ModBlocks.LARCH_SAPLING.get());
 
                         pOutput.accept(ModBlocks.LINDEN_LOG.get());
                         pOutput.accept(ModBlocks.LINDEN_WOOD.get());
@@ -453,7 +453,7 @@ public class ModCreativeModeTab {
                         //Linden Boat
                         //Linden Chest Boat
                         pOutput.accept(ModBlocks.LINDEN_LEAVES.get());
-               //         pOutput.accept(ModBlocks.LINDEN_SAPLING.get());
+                        pOutput.accept(ModBlocks.LINDEN_SAPLING.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_DIRTS = CREATIVE_MODE_TAB.register("pristineworlds_dirts",

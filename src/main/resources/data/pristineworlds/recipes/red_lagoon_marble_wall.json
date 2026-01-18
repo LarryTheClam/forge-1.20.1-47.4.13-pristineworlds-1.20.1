@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "pristineworlds:red_lagoon_marble_block",
+      "item": "pristineworlds:red_lagoon_marble_block"
     }
   },
   "pattern": [

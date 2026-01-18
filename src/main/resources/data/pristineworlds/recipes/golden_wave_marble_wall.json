@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "pristineworlds:golden_wave_marble_block",
+      "item": "pristineworlds:golden_wave_marble_block"
     }
   },
   "pattern": [

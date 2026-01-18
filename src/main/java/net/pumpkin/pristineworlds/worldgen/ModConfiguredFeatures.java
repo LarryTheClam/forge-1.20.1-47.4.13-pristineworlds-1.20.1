@@ -5,11 +5,21 @@ import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.util.valueproviders.ConstantInt;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
@@ -44,6 +54,11 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> BLUESTONE_KEY = registerKey("bluestone");
     public static final ResourceKey<ConfiguredFeature<?, ?>> LIMESTONE_KEY = registerKey("limestone");
     public static final ResourceKey<ConfiguredFeature<?, ?>> PERIDOTITE_KEY = registerKey("peridotite");
+
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CYPRESS_KEY = registerKey("cypress");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> HICKORY_KEY = registerKey("hickory");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> LARCH_KEY = registerKey("larch");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> LINDEN_KEY = registerKey("linden");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -143,6 +158,33 @@ public class ModConfiguredFeatures {
         register(context, LIMESTONE_KEY, Feature.ORE, new OreConfiguration(LIMESTONE_SPAWN,64));
         register(context, PERIDOTITE_KEY, Feature.ORE, new OreConfiguration(PERIDOTITE_SPAWN,64));
 
+
+
+
+        register(context, CYPRESS_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.CYPRESS_LOG.get()),
+                new StraightTrunkPlacer(5, 5, 1),
+                BlockStateProvider.simple(ModBlocks.CYPRESS_LEAVES.get()),
+                new SpruceFoliagePlacer(UniformInt.of(2, 5), ConstantInt.of(2), ConstantInt.of(1)),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, HICKORY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.HICKORY_LOG.get()),
+                new FancyTrunkPlacer(5, 3, 4),
+                BlockStateProvider.simple(ModBlocks.HICKORY_LEAVES.get()),
+                new BushFoliagePlacer(UniformInt.of(4, 5), ConstantInt.of(2), 3),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, LARCH_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.LARCH_LOG.get()),
+                new StraightTrunkPlacer(6, 2, 2),
+                BlockStateProvider.simple(ModBlocks.LARCH_LEAVES.get()),
+                new SpruceFoliagePlacer(UniformInt.of(1, 3), ConstantInt.of(2), ConstantInt.of(1)),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, LINDEN_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.LINDEN_LOG.get()),
+                new StraightTrunkPlacer(3, 2, 4),
+                BlockStateProvider.simple(ModBlocks.LINDEN_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 4),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
     }
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(PristineWorlds.MOD_ID, name));

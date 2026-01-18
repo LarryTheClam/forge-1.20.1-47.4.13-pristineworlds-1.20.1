@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": {},
-    "item": "pristineworlds:golden_wave_marble_block"
-  },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "pristineworlds:golden_wave_marble_slab"
+    "#": {
+      "item": "pristineworlds:golden_wave_marble_block"
+    },
+    "pattern": [
+      "###"
+    ],
+    "result": {
+      "count": 6,
+      "item": "pristineworlds:golden_wave_marble_slab"
+    }
   }
 }

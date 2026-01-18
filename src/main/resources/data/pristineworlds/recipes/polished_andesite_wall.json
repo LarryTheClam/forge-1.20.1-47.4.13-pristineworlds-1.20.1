@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "pristineworlds:polished_andesite"
+      "item": "minecraft:polished_andesite"
     }
   },
   "pattern": [

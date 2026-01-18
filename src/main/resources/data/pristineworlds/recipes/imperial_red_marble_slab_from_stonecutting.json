@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:imperial_red_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:imperial_red_marble_slab"
-  }
+  "result": "pristineworlds:imperial_red_marble_slab"
 }

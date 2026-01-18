@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "pristineworlds:casa_marmi_marble_block",
+      "item": "pristineworlds:casa_marmi_marble_block"
     }
   },
   "pattern": [

@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:casa_marmi_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:casa_marmi_marble_slab"
-  }
+  "result":  "pristineworlds:casa_marmi_marble_slab"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_trapdoor",
+  "key": {
+    "#": {
+      "item": "pristineworlds:cypress_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "pristineworlds:cypress_trapdoor"
+  },
+  "show_notification": true
+}

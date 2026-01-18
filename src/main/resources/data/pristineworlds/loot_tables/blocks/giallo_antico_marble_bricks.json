@@ -3,7 +3,7 @@
   "pools": [
     {
       "rolls": 1,
-      "entires": [
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "pristineworlds:giallo_antico_marble_bricks"

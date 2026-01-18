@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pristineworlds:granite_brick_slab.json"
+          "name": "pristineworlds:granite_brick_slab"
         }
       ]
     }

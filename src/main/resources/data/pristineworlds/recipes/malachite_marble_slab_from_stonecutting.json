@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:malachite_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:malachite_marble_slab"
-  }
+  "result": "pristineworlds:malachite_marble_slab"
 }

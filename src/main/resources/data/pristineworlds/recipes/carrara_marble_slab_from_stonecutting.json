@@ -4,7 +4,5 @@
   "ingredient": {
     "item": "pristineworlds:carrara_marble_block"
   },
-  "result": {
-    "item": "pristineworlds:carrara_marble_slab"
-  }
+  "result": "pristineworlds:carrara_marble_slab"
 }
