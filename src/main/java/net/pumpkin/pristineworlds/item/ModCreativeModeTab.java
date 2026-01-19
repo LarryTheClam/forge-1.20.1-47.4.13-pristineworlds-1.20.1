@@ -406,8 +406,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.HICKORY_FENCE_GATE.get());
                         pOutput.accept(ModBlocks.HICKORY_BUTTON.get());
                         pOutput.accept(ModBlocks.HICKORY_PRESSURE_PLATE.get());
-                        //Hickory Door
-                        //Hickory Trapdoor
+                        pOutput.accept(ModBlocks.HICKORY_DOOR.get());
+                        pOutput.accept(ModBlocks.HICKORY_TRAPDOOR.get());
                         pOutput.accept(ModItems.HICKORY_SIGN.get());
                         pOutput.accept(ModItems.HICKORY_HANGING_SIGN.get());
                         pOutput.accept(ModItems.HICKORY_BOAT.get());
@@ -426,8 +426,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.LARCH_FENCE_GATE.get());
                         pOutput.accept(ModBlocks.LARCH_BUTTON.get());
                         pOutput.accept(ModBlocks.LARCH_PRESSURE_PLATE.get());
-                        //Larch Door
-                        //Larch Trapdoor
+                        pOutput.accept(ModBlocks.LARCH_DOOR.get());
+                        pOutput.accept(ModBlocks.LARCH_TRAPDOOR.get());
                         pOutput.accept(ModItems.LARCH_SIGN.get());
                         pOutput.accept(ModItems.LARCH_HANGING_SIGN.get());
                         pOutput.accept(ModItems.LARCH_BOAT.get());
@@ -446,8 +446,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.LINDEN_FENCE_GATE.get());
                         pOutput.accept(ModBlocks.LINDEN_BUTTON.get());
                         pOutput.accept(ModBlocks.LINDEN_PRESSURE_PLATE.get());
-                        //Linden Door
-                        //Linden Trapdoor
+                        pOutput.accept(ModBlocks.LINDEN_DOOR.get());
+                        pOutput.accept(ModBlocks.LINDEN_TRAPDOOR.get());
                         pOutput.accept(ModItems.LINDEN_SIGN.get());
                         pOutput.accept(ModItems.LINDEN_HANGING_SIGN.get());
                         pOutput.accept(ModItems.LINDEN_BOAT.get());

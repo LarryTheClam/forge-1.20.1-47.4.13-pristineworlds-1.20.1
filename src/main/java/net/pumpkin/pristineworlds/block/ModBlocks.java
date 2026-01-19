@@ -1342,7 +1342,12 @@ Bober Kurwa
     public static final RegistryObject<Block> HICKORY_WALL_HANGING_SIGN = BLOCKS.register("hickory_wall_hanging_sign",
             () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.HICKORY));
 
-
+    public static final RegistryObject<Block> HICKORY_DOOR = registerBlock("hickory_door",
+            ()-> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+                    BlockSetType.OAK));
+    public static final RegistryObject<Block> HICKORY_TRAPDOOR = registerBlock("hickory_trapdoor",
+            ()-> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+                    BlockSetType.OAK));
 
     public static final RegistryObject<Block> LARCH_LOG = registerBlock("larch_log",
             ()->new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -1509,6 +1514,12 @@ Bober Kurwa
     public static final RegistryObject<Block> LARCH_WALL_HANGING_SIGN = BLOCKS.register("larch_wall_hanging_sign",
             () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.LARCH));
 
+    public static final RegistryObject<Block> LARCH_DOOR = registerBlock("larch_door",
+            ()-> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+                    BlockSetType.OAK));
+    public static final RegistryObject<Block> LARCH_TRAPDOOR = registerBlock("larch_trapdoor",
+            ()-> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+                    BlockSetType.OAK));
 
 
     public static final RegistryObject<Block> LINDEN_LOG = registerBlock("linden_log",
@@ -1676,7 +1687,12 @@ Bober Kurwa
     public static final RegistryObject<Block> LINDEN_WALL_HANGING_SIGN = BLOCKS.register("linden_wall_hanging_sign",
             () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.LINDEN));
 
-
+    public static final RegistryObject<Block> LINDEN_DOOR = registerBlock("linden_door",
+            ()-> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+                    BlockSetType.OAK));
+    public static final RegistryObject<Block> LINDEN_TRAPDOOR = registerBlock("linden_trapdoor",
+            ()-> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion(),
+                    BlockSetType.OAK));
 
     public static final RegistryObject<Block> BANANA_BLOCK = registerBlock("banana_block",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.MELON)));
