@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "pristineworlds:cypress_trapdoor"
+    "pristineworlds:cinnamon_trapdoor",
+    "pristineworlds:cypress_trapdoor",
+    "pristineworlds:hickory_trapdoor",
+    "pristineworlds:larch_trapdoor",
+    "pristineworlds:linden_trapdoor"
   ]
 }

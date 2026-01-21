@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cinnamon_fence_gate",
     "pristineworlds:cypress_fence_gate",
     "pristineworlds:hickory_fence_gate",
     "pristineworlds:larch_fence_gate",

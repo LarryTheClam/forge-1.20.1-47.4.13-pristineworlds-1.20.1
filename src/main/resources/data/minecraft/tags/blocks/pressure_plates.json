@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cinnamon_pressure_plate",
     "pristineworlds:cypress_pressure_plate",
     "pristineworlds:hickory_pressure_plate",
     "pristineworlds:larch_pressure_plate",

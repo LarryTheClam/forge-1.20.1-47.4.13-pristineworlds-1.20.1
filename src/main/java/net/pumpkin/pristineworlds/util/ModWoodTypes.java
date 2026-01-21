@@ -8,7 +8,7 @@ public class ModWoodTypes {
     //public static final WoodType BANANA = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":banana", BlockSetType.OAK));
     //public static final WoodType CASSIA = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":cassia", BlockSetType.OAK));
     //public static final WoodType CEDAR = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":cedar", BlockSetType.OAK));
-    //public static final WoodType CINNAMON = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":cinnamon", BlockSetType.OAK));
+    public static final WoodType CINNAMON = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":cinnamon", BlockSetType.OAK));
     public static final WoodType CYPRESS = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":cypress", BlockSetType.OAK));
     public static final WoodType HICKORY = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":hickory", BlockSetType.OAK));
     public static final WoodType LARCH = WoodType.register(new WoodType(PristineWorlds.MOD_ID + ":larch", BlockSetType.OAK));

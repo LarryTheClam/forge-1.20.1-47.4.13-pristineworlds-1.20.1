@@ -1,6 +1,7 @@
 package net.pumpkin.pristineworlds.entity.custom;
 
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.Tag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -17,7 +18,6 @@ import net.pumpkin.pristineworlds.item.ModItems;
 
 import java.util.function.IntFunction;
 
-import static net.pumpkin.pristineworlds.util.ModWoodTypes.*;
 
 public class ModBoatEntity extends Boat {
     private static final EntityDataAccessor<Integer> DATA_ID_TYPE = SynchedEntityData.defineId(Boat.class, EntityDataSerializers.INT);
@@ -37,6 +37,7 @@ public class ModBoatEntity extends Boat {
     @Override
     public Item getDropItem() {
         return switch (getModVariant()) {
+            case CINNAMON -> ModItems.CINNAMON_BOAT.get();
             case CYPRESS -> ModItems.CYPRESS_BOAT.get();
             case HICKORY -> ModItems.HICKORY_BOAT.get();
             case LARCH -> ModItems.LARCH_BOAT.get();
@@ -57,12 +58,33 @@ public class ModBoatEntity extends Boat {
         this.entityData.define(DATA_ID_TYPE, Type.CYPRESS.ordinal());
     }
 
-    protected void addAdditionalSaveData(CompoundTag pCompound) {
-        pCompound.putString("Type", this.getModVariant().getSerializedName());
+    @Override
+    protected void addAdditionalSaveData(CompoundTag pCompound)
+    {
+        pCompound.putString("model", getModel().getName());
     }
 
+    @Override
+    protected void readAdditionalSaveData(CompoundTag pCompound)
+    {
+        if (pCompound.contains("model", Tag.TAG_STRING))
+        {
+            this.entityData.set(DATA_ID_TYPE, Type.byName(pCompound.getString("model")).ordinal());
+        }
+    }
+
+    public void setModel(Type type)
+    {
+        this.entityData.set(DATA_ID_TYPE, type.ordinal());
+    }
+
+    public Type getModel()
+    {
+        return Type.byId(this.entityData.get(DATA_ID_TYPE));
+    }
 
     public static enum Type implements StringRepresentable {
+        CINNAMON(ModBlocks.CINNAMON_PLANKS.get(), "cinnamon"),
         CYPRESS(ModBlocks.CYPRESS_PLANKS.get(), "cypress"),
         HICKORY(ModBlocks.HICKORY_PLANKS.get(), "hickory"),
         LARCH(ModBlocks.LARCH_PLANKS.get(), "larch"),
@@ -100,6 +122,7 @@ public class ModBoatEntity extends Boat {
         public static ModBoatEntity.Type byId(int pId) {
             return BY_ID.apply(pId);
         }
+
         public static ModBoatEntity.Type byName(String pName) {
             return CODEC.byName(pName, CYPRESS);
         }

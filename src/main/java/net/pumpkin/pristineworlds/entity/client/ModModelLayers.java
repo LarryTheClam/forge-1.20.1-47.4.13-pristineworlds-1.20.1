@@ -7,6 +7,11 @@ import net.pumpkin.pristineworlds.PristineWorlds;
 public class ModModelLayers {
 
 
+    public static final ModelLayerLocation CINNAMON_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "boat/cinnamon"), "main");
+    public static final ModelLayerLocation CINNAMON_CHEST_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "chest_boat/cinnamon"), "main");
+
     public static final ModelLayerLocation CYPRESS_BOAT_LAYER = new ModelLayerLocation(
             new ResourceLocation(PristineWorlds.MOD_ID, "boat/cypress"), "main");
     public static final ModelLayerLocation CYPRESS_CHEST_BOAT_LAYER = new ModelLayerLocation(

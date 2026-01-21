@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/cinnamon_planks",
+    "side": "pristineworlds:block/cinnamon_planks",
+    "top": "pristineworlds:block/cinnamon_planks"
+  }
+}

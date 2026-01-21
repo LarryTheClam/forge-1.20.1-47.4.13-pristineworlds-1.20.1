@@ -73,6 +73,7 @@ public class PristineWorlds
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.CINNAMON);
             Sheets.addWoodType(ModWoodTypes.CYPRESS);
             Sheets.addWoodType(ModWoodTypes.HICKORY);
             Sheets.addWoodType(ModWoodTypes.LARCH);

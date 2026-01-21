@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cinnamon_log",
+    "pristineworlds:cinnamon_wood",
+    "pristineworlds:stripped_cinnamon_log",
+    "pristineworlds:stripped_cinnamon_wood",
     "pristineworlds:cypress_log",
     "pristineworlds:stripped_cypress_log",
     "pristineworlds:cypress_wood",

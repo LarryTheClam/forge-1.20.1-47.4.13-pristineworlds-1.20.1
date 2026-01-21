@@ -374,6 +374,27 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CYPRESS_LOG.get()))
                     .title(Component.translatable("creativetab.pristineworlds_woods"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.CINNAMON_LOG.get());
+                        pOutput.accept(ModBlocks.CINNAMON_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CINNAMON_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CINNAMON_WOOD.get());
+                        pOutput.accept(ModBlocks.CINNAMON_PLANKS.get());
+                        pOutput.accept(ModBlocks.CINNAMON_STAIRS.get());
+                        pOutput.accept(ModBlocks.CINNAMON_SLAB.get());
+                        pOutput.accept(ModBlocks.CINNAMON_FENCE.get());
+                        pOutput.accept(ModBlocks.CINNAMON_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.CINNAMON_BUTTON.get());
+                        pOutput.accept(ModBlocks.CINNAMON_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.CINNAMON_DOOR.get());
+                        pOutput.accept(ModBlocks.CINNAMON_TRAPDOOR.get());
+                        pOutput.accept(ModItems.CINNAMON_SIGN.get());
+                        pOutput.accept(ModItems.CINNAMON_HANGING_SIGN.get());
+                        pOutput.accept(ModItems.CINNAMON_BOAT.get());
+                        pOutput.accept(ModItems.CINNAMON_CHEST_BOAT.get());
+                        pOutput.accept(ModBlocks.CINNAMON_LEAVES.get());
+                        pOutput.accept(ModBlocks.CINNAMON_SAPLING.get());
+
+
                         pOutput.accept(ModBlocks.CYPRESS_LOG.get());
                         pOutput.accept(ModBlocks.CYPRESS_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_CYPRESS_LOG.get());
@@ -466,27 +487,11 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.SILT.get());
                     }).build());
 
-    public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_SPAWN_EGGS = CREATIVE_MODE_TAB.register("pristineworlds_spawn_eggss",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLACK_BRICK.get()))
-                    .title(Component.translatable("creativetab.pristineworlds_spawn_eggs"))
-                    .displayItems((pParameters, pOutput) -> {
-                    }).build());
 
-    public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_MOB_LOOT = CREATIVE_MODE_TAB.register("pristineworlds_mob_loots",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLUE_BRICK.get()))
-                    .title(Component.translatable("creativetab.pristineworlds_mob_loot"))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(Blocks.DIRT);
-                    }).build());
 
-    public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_FOODS = CREATIVE_MODE_TAB.register("pristineworlds_foodss",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KELP_SANDWICH.get()))
-                    .title(Component.translatable("creativetab.pristineworlds_foods"))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.KELP_SANDWICH.get());
-                        pOutput.accept(ModItems.KELP_AND_PORK_SANDWICH.get());
-                        pOutput.accept(ModBlocks.BANANA_BLOCK.get());
-                    }).build());
+
+
+
             
             
     public static void register(IEventBus eventBus) {

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pristineworlds:cinnamon_planks"
+    }
+  ],
+  "result": {
+    "item": "pristineworlds:cinnamon_button"
+  }
+}

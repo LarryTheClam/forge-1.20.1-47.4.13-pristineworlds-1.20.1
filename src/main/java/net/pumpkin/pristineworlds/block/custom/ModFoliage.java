@@ -19,6 +19,7 @@ public class ModFoliage {
                     BlockState state = ((BlockItem)stack.getItem()).getBlock().defaultBlockState();
                     return event.getBlockColors().getColor(state, null, null, tintIndex); },
                 ModBlocks.CYPRESS_LEAVES.get(),
+                ModBlocks.CINNAMON_LEAVES.get(),
                 ModBlocks.HICKORY_LEAVES.get(),
                 ModBlocks.LARCH_LEAVES.get(),
                 ModBlocks.LINDEN_LEAVES.get());
@@ -28,6 +29,7 @@ public class ModFoliage {
         event.getBlockColors().register((state, world, pos, tintIndex) ->
                         world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(),
                 ModBlocks.CYPRESS_LEAVES.get(),
+                ModBlocks.CINNAMON_LEAVES.get(),
                 ModBlocks.HICKORY_LEAVES.get(),
                 ModBlocks.LARCH_LEAVES.get(),
                 ModBlocks.LINDEN_LEAVES.get());

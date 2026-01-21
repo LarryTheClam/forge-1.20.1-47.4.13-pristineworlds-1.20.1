@@ -2,6 +2,7 @@ package net.pumpkin.pristineworlds.entity.custom;
 
 
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.Tag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -30,7 +31,10 @@ public class ModChestBoatEntity extends ChestBoat {
 
     @Override
     public Item getDropItem() {
-        switch (getModVariant()) {
+        switch (getModel()) {
+            case CINNAMON -> {
+                return ModItems.CINNAMON_CHEST_BOAT.get();
+            }
             case CYPRESS -> {
                 return ModItems.CYPRESS_CHEST_BOAT.get();
             }
@@ -56,12 +60,29 @@ public class ModChestBoatEntity extends ChestBoat {
         this.entityData.define(DATA_ID_TYPE, ModBoatEntity.Type.CYPRESS.ordinal());
     }
 
-    protected void addAdditionalSaveData(CompoundTag pCompound) {
-        pCompound.putString("Type", this.getModVariant().getSerializedName());
+    @Override
+    protected void addAdditionalSaveData(CompoundTag pCompound)
+    {
+        pCompound.putString("model", getModel().getName());
     }
 
+    @Override
+    protected void readAdditionalSaveData(CompoundTag pCompound)
+    {
+        if (pCompound.contains("model", Tag.TAG_STRING))
+        {
+            this.entityData.set(DATA_ID_TYPE, ModBoatEntity.Type.byName(pCompound.getString("model")).ordinal());
+        }
+    }
 
-    public ModBoatEntity.Type getModVariant() {
+    public void setModel(ModBoatEntity.Type type)
+    {
+        this.entityData.set(DATA_ID_TYPE, type.ordinal());
+    }
+
+    public ModBoatEntity.Type getModel()
+    {
         return ModBoatEntity.Type.byId(this.entityData.get(DATA_ID_TYPE));
     }
+
 }

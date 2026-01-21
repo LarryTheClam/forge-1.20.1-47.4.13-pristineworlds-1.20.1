@@ -44,6 +44,8 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> LIMESTONE_PLACED_KEY = registerKey("limestone_placed");
     public static final ResourceKey<PlacedFeature> PERIDOTITE_PLACED_KEY = registerKey("peridotite_placed");
 
+
+    public static final ResourceKey<PlacedFeature> CINNAMON_PLACED_KEY = registerKey("cinnamon_placed");
     public static final ResourceKey<PlacedFeature> CYPRESS_PLACED_KEY = registerKey("cypress_placed");
     public static final ResourceKey<PlacedFeature> HICKORY_PLACED_KEY = registerKey("hickory_placed");
     public static final ResourceKey<PlacedFeature> LARCH_PLACED_KEY = registerKey("larch_placed");
@@ -122,9 +124,22 @@ public class ModPlacedFeatures {
                 ModOrePlacement.commonOrePlacement(2,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60))));
 
+
+        register(context, CINNAMON_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CINNAMON_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        ModBlocks.CINNAMON_SAPLING.get()));
         register(context, CYPRESS_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CYPRESS_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         ModBlocks.CYPRESS_SAPLING.get()));
+        register(context, HICKORY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.HICKORY_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        ModBlocks.HICKORY_SAPLING.get()));
+        register(context, LARCH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LARCH_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        ModBlocks.LARCH_SAPLING.get()));
+        register(context, LINDEN_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LINDEN_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        ModBlocks.LINDEN_SAPLING.get()));
 
 
     }

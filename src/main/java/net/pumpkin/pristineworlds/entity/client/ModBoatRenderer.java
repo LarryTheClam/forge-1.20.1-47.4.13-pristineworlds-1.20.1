@@ -53,7 +53,7 @@ public class ModBoatRenderer extends BoatRenderer {
         if(boat instanceof ModBoatEntity modBoat) {
             return this.boatResources.get(modBoat.getModVariant());
         } else if(boat instanceof ModChestBoatEntity modChestBoatEntity) {
-            return this.boatResources.get(modChestBoatEntity.getModVariant());
+            return this.boatResources.get(modChestBoatEntity.getModel());
         } else {
             return null;
         }

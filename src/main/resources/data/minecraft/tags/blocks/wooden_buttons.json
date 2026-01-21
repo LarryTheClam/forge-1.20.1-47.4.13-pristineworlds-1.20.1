@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cinnamon_button",
     "pristineworlds:cypress_button",
     "pristineworlds:hickory_button",
     "pristineworlds:larch_button",
