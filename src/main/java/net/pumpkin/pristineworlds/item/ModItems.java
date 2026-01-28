@@ -113,6 +113,16 @@ public class ModItems {
             () -> new ModBoatItem(false, ModBoatEntity.Type.LINDEN, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LINDEN_CHEST_BOAT = ITEMS.register("linden_chest_boat",
             () -> new ModBoatItem(true, ModBoatEntity.Type.LINDEN, new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> OLIVE_SIGN = ITEMS.register("olive_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.OLIVE_SIGN.get(), ModBlocks.OLIVE_WALL_SIGN.get()));
+    public static final RegistryObject<Item> OLIVE_HANGING_SIGN = ITEMS.register("olive_hanging_sign",
+            () -> new HangingSignItem(ModBlocks.OLIVE_HANGING_SIGN.get(), ModBlocks.OLIVE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
+    public static final RegistryObject<Item> OLIVE_BOAT = ITEMS.register("olive_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.OLIVE, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> OLIVE_CHEST_BOAT = ITEMS.register("olive_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.OLIVE, new Item.Properties().stacksTo(1)));
     //I want to breed
 
 

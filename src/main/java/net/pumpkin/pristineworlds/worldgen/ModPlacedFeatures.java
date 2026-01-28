@@ -50,6 +50,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> HICKORY_PLACED_KEY = registerKey("hickory_placed");
     public static final ResourceKey<PlacedFeature> LARCH_PLACED_KEY = registerKey("larch_placed");
     public static final ResourceKey<PlacedFeature> LINDEN_PLACED_KEY = registerKey("linden_placed");
+    public static final ResourceKey<PlacedFeature> OLIVE_PLACED_KEY = registerKey("olive_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -140,7 +141,9 @@ public class ModPlacedFeatures {
         register(context, LINDEN_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LINDEN_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         ModBlocks.LINDEN_SAPLING.get()));
-
+        register(context, OLIVE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OLIVE_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(1, 0.1f, 2),
+                        ModBlocks.OLIVE_SAPLING.get()));
 
     }
     private static ResourceKey<PlacedFeature> registerKey(String name) {

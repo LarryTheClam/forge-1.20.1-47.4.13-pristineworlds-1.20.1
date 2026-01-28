@@ -475,6 +475,26 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.LINDEN_CHEST_BOAT.get());
                         pOutput.accept(ModBlocks.LINDEN_LEAVES.get());
                         pOutput.accept(ModBlocks.LINDEN_SAPLING.get());
+
+                        pOutput.accept(ModBlocks.OLIVE_LOG.get());
+                        pOutput.accept(ModBlocks.OLIVE_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_OLIVE_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_OLIVE_WOOD.get());
+                        pOutput.accept(ModBlocks.OLIVE_PLANKS.get());
+                        pOutput.accept(ModBlocks.OLIVE_STAIRS.get());
+                        pOutput.accept(ModBlocks.OLIVE_SLAB.get());
+                        pOutput.accept(ModBlocks.OLIVE_FENCE.get());
+                        pOutput.accept(ModBlocks.OLIVE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.OLIVE_BUTTON.get());
+                        pOutput.accept(ModBlocks.OLIVE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.OLIVE_DOOR.get());
+                        pOutput.accept(ModBlocks.OLIVE_TRAPDOOR.get());
+                        pOutput.accept(ModItems.OLIVE_SIGN.get());
+                        pOutput.accept(ModItems.OLIVE_HANGING_SIGN.get());
+                        pOutput.accept(ModItems.OLIVE_BOAT.get());
+                        pOutput.accept(ModItems.OLIVE_CHEST_BOAT.get());
+                        pOutput.accept(ModBlocks.OLIVE_LEAVES.get());
+                        pOutput.accept(ModBlocks.OLIVE_SAPLING.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> PRISTINEWORLDS_DIRTS = CREATIVE_MODE_TAB.register("pristineworlds_dirts",

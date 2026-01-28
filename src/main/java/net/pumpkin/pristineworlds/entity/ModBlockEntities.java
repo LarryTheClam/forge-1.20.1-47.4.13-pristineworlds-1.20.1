@@ -24,7 +24,9 @@ public class ModBlockEntities {
                             ModBlocks.LARCH_SIGN.get(),
                             ModBlocks.LARCH_WALL_SIGN.get(),
                             ModBlocks.LINDEN_SIGN.get(),
-                            ModBlocks.LINDEN_WALL_SIGN.get()
+                            ModBlocks.LINDEN_WALL_SIGN.get(),
+                            ModBlocks.OLIVE_SIGN.get(),
+                            ModBlocks.OLIVE_WALL_SIGN.get()
                     ).build(null));
 
     public static final RegistryObject<BlockEntityType<ModHangingSignBlockEntity>> MOD_HANGING_SIGN =
@@ -39,7 +41,9 @@ public class ModBlockEntities {
                             ModBlocks.LARCH_HANGING_SIGN.get(),
                             ModBlocks.LARCH_WALL_HANGING_SIGN.get(),
                             ModBlocks.LINDEN_HANGING_SIGN.get(),
-                            ModBlocks.LINDEN_WALL_HANGING_SIGN.get()
+                            ModBlocks.LINDEN_WALL_HANGING_SIGN.get(),
+                            ModBlocks.OLIVE_HANGING_SIGN.get(),
+                            ModBlocks.OLIVE_WALL_HANGING_SIGN.get()
                     ).build(null));
 
     public static void register(IEventBus eventBus) {

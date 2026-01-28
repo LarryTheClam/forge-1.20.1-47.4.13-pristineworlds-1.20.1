@@ -454,6 +454,26 @@
   "item.pristineworlds.linden_boat": "Linden Boat",
   "item.pristineworlds.linden_chest_boat": "Linden Chest Boat",
 
+  "block.pristineworlds.olive_log": "Olive Log",
+  "block.pristineworlds.olive_wood": "Olive Wood",
+  "block.pristineworlds.stripped_olive_log": "Stripped Olive Log",
+  "block.pristineworlds.stripped_olive_wood": "Stripped Olive Wood",
+  "block.pristineworlds.olive_sapling": "Olive Sapling",
+  "block.pristineworlds.olive_leaves": "Olive Leaves",
+  "block.pristineworlds.olive_planks": "Olive Planks",
+  "block.pristineworlds.olive_slab": "Olive Slab",
+  "block.pristineworlds.olive_stairs": "Olive Stairs",
+  "block.pristineworlds.olive_fence": "Olive Fence",
+  "block.pristineworlds.olive_fence_gate": "Olive Fence Gate",
+  "block.pristineworlds.olive_button": "Olive Button",
+  "block.pristineworlds.olive_pressure_plate": "Olive Pressure Plate",
+  "block.pristineworlds.olive_sign": "Olive Sign",
+  "block.pristineworlds.olive_hanging_sign": "Olive Hanging Sign",
+  "block.pristineworlds.olive_door": "Olive Door",
+  "block.pristineworlds.olive_trapdoor": "Olive Trapdoor",
+  "item.pristineworlds.olive_boat": "Olive Boat",
+  "item.pristineworlds.olive_chest_boat": "Olive Chest Boat",
+
 
 
   "entity.pristineworlds.mod_chest_boat": "Boat with Chest",

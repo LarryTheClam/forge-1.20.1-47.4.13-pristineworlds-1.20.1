@@ -62,6 +62,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> HICKORY_KEY = registerKey("hickory");
     public static final ResourceKey<ConfiguredFeature<?, ?>> LARCH_KEY = registerKey("larch");
     public static final ResourceKey<ConfiguredFeature<?, ?>> LINDEN_KEY = registerKey("linden");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OLIVE_KEY = registerKey("olive");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -193,6 +194,12 @@ public class ModConfiguredFeatures {
                 new StraightTrunkPlacer(3, 2, 4),
                 BlockStateProvider.simple(ModBlocks.LINDEN_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(2), 2),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, OLIVE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.OLIVE_LOG.get()),
+                new StraightTrunkPlacer(3, 1, 1),
+                BlockStateProvider.simple(ModBlocks.OLIVE_LEAVES.get()),
+                new FancyFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
     }
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_forest",
+  "biomes": "#minecraft:is_hickory_spawnable",
   "features": "pristineworlds:hickory_placed",
   "step": "vegetal_decoration"
 }

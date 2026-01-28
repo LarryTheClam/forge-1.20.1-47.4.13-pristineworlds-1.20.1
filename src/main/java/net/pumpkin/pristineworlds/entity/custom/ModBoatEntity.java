@@ -42,6 +42,7 @@ public class ModBoatEntity extends Boat {
             case HICKORY -> ModItems.HICKORY_BOAT.get();
             case LARCH -> ModItems.LARCH_BOAT.get();
             case LINDEN -> ModItems.LINDEN_BOAT.get();
+            case OLIVE -> ModItems.OLIVE_BOAT.get();
         };
     }
 
@@ -88,7 +89,8 @@ public class ModBoatEntity extends Boat {
         CYPRESS(ModBlocks.CYPRESS_PLANKS.get(), "cypress"),
         HICKORY(ModBlocks.HICKORY_PLANKS.get(), "hickory"),
         LARCH(ModBlocks.LARCH_PLANKS.get(), "larch"),
-        LINDEN(ModBlocks.LINDEN_PLANKS.get(), "linden");
+        LINDEN(ModBlocks.LINDEN_PLANKS.get(), "linden"),
+        OLIVE(ModBlocks.OLIVE_PLANKS.get(), "olive");
 
         private final String name;
         private final Block planks;

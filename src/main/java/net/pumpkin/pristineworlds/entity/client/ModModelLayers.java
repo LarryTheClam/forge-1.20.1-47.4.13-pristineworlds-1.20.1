@@ -32,4 +32,9 @@ public class ModModelLayers {
     public static final ModelLayerLocation LINDEN_CHEST_BOAT_LAYER = new ModelLayerLocation(
             new ResourceLocation(PristineWorlds.MOD_ID, "chest_boat/linden"), "main");
 
+    public static final ModelLayerLocation OLIVE_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "boat/olive"), "main");
+    public static final ModelLayerLocation OLIVE_CHEST_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "chest_boat/olive"), "main");
+
 }

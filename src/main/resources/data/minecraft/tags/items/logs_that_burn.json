@@ -20,6 +20,10 @@
     "pristineworlds:linden_log",
     "pristineworlds:stripped_linden_log",
     "pristineworlds:linden_wood",
-    "pristineworlds:stripped_linden_wood"
+    "pristineworlds:stripped_linden_wood",
+    "pristineworlds:olive_log",
+    "pristineworlds:olive_wood",
+    "pristineworlds:stripped_olive_log",
+    "pristineworlds:stripped_olive_wood"
   ]
 }

@@ -22,7 +22,8 @@ public class ModFoliage {
                 ModBlocks.CINNAMON_LEAVES.get(),
                 ModBlocks.HICKORY_LEAVES.get(),
                 ModBlocks.LARCH_LEAVES.get(),
-                ModBlocks.LINDEN_LEAVES.get());
+                ModBlocks.LINDEN_LEAVES.get(),
+                ModBlocks.OLIVE_LEAVES.get());
     }
     @SubscribeEvent
     public static void registerBlockColors(RegisterColorHandlersEvent.Block event) {
@@ -32,6 +33,7 @@ public class ModFoliage {
                 ModBlocks.CINNAMON_LEAVES.get(),
                 ModBlocks.HICKORY_LEAVES.get(),
                 ModBlocks.LARCH_LEAVES.get(),
-                ModBlocks.LINDEN_LEAVES.get());
+                ModBlocks.LINDEN_LEAVES.get(),
+                ModBlocks.OLIVE_LEAVES.get());
     }
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "pristineworlds:olive_planks"
+    }
+  ],
+  "result": {
+    "item": "pristineworlds:olive_button"
+  }
+}

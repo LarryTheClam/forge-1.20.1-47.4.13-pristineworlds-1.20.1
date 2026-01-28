@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pristineworlds:olive_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pristineworlds:olive_planks"
+  }
+}

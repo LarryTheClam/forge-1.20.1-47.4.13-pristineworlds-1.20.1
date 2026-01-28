@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_forest",
+  "biomes": "#minecraft:is_linden_spawnable",
   "features": "pristineworlds:linden_placed",
   "step": "vegetal_decoration"
 }

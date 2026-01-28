@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_cinnamon_spawnable",
+  "features": "pristineworlds:cinnamon_placed",
+  "step": "vegetal_decoration"
+}
