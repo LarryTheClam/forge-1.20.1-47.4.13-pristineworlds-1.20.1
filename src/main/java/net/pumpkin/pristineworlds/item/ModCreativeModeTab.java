@@ -415,6 +415,26 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.CYPRESS_LEAVES.get());
                         pOutput.accept(ModBlocks.CYPRESS_SAPLING.get());
 
+                        pOutput.accept(ModBlocks.EBONY_LOG.get());
+                        pOutput.accept(ModBlocks.EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.EBONY_PLANKS.get());
+                        pOutput.accept(ModBlocks.EBONY_STAIRS.get());
+                        pOutput.accept(ModBlocks.EBONY_SLAB.get());
+                        pOutput.accept(ModBlocks.EBONY_FENCE.get());
+                        pOutput.accept(ModBlocks.EBONY_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.EBONY_BUTTON.get());
+                        pOutput.accept(ModBlocks.EBONY_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.EBONY_DOOR.get());
+                        pOutput.accept(ModBlocks.EBONY_TRAPDOOR.get());
+                        pOutput.accept(ModItems.EBONY_SIGN.get());
+                        pOutput.accept(ModItems.EBONY_HANGING_SIGN.get());
+                        pOutput.accept(ModItems.EBONY_BOAT.get());
+                        pOutput.accept(ModItems.EBONY_CHEST_BOAT.get());
+                        pOutput.accept(ModBlocks.EBONY_LEAVES.get());
+                        pOutput.accept(ModBlocks.EBONY_SAPLING.get());
+
 
                         pOutput.accept(ModBlocks.HICKORY_LOG.get());
                         pOutput.accept(ModBlocks.HICKORY_WOOD.get());
@@ -475,6 +495,26 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.LINDEN_CHEST_BOAT.get());
                         pOutput.accept(ModBlocks.LINDEN_LEAVES.get());
                         pOutput.accept(ModBlocks.LINDEN_SAPLING.get());
+
+                        pOutput.accept(ModBlocks.MAPLE_LOG.get());
+                        pOutput.accept(ModBlocks.MAPLE_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_MAPLE_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_MAPLE_WOOD.get());
+                        pOutput.accept(ModBlocks.MAPLE_PLANKS.get());
+                        pOutput.accept(ModBlocks.MAPLE_STAIRS.get());
+                        pOutput.accept(ModBlocks.MAPLE_SLAB.get());
+                        pOutput.accept(ModBlocks.MAPLE_FENCE.get());
+                        pOutput.accept(ModBlocks.MAPLE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.MAPLE_BUTTON.get());
+                        pOutput.accept(ModBlocks.MAPLE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.MAPLE_DOOR.get());
+                        pOutput.accept(ModBlocks.MAPLE_TRAPDOOR.get());
+                        pOutput.accept(ModItems.MAPLE_SIGN.get());
+                        pOutput.accept(ModItems.MAPLE_HANGING_SIGN.get());
+                        pOutput.accept(ModItems.MAPLE_BOAT.get());
+                        pOutput.accept(ModItems.MAPLE_CHEST_BOAT.get());
+                        pOutput.accept(ModBlocks.MAPLE_LEAVES.get());
+                        pOutput.accept(ModBlocks.MAPLE_SAPLING.get());
 
                         pOutput.accept(ModBlocks.OLIVE_LOG.get());
                         pOutput.accept(ModBlocks.OLIVE_WOOD.get());

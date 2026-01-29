@@ -39,9 +39,11 @@ public class ModBoatEntity extends Boat {
         return switch (getModVariant()) {
             case CINNAMON -> ModItems.CINNAMON_BOAT.get();
             case CYPRESS -> ModItems.CYPRESS_BOAT.get();
+            case EBONY -> ModItems.EBONY_BOAT.get();
             case HICKORY -> ModItems.HICKORY_BOAT.get();
             case LARCH -> ModItems.LARCH_BOAT.get();
             case LINDEN -> ModItems.LINDEN_BOAT.get();
+            case MAPLE -> ModItems.MAPLE_BOAT.get();
             case OLIVE -> ModItems.OLIVE_BOAT.get();
         };
     }
@@ -87,9 +89,11 @@ public class ModBoatEntity extends Boat {
     public static enum Type implements StringRepresentable {
         CINNAMON(ModBlocks.CINNAMON_PLANKS.get(), "cinnamon"),
         CYPRESS(ModBlocks.CYPRESS_PLANKS.get(), "cypress"),
+        EBONY(ModBlocks.EBONY_PLANKS.get(), "ebony"),
         HICKORY(ModBlocks.HICKORY_PLANKS.get(), "hickory"),
         LARCH(ModBlocks.LARCH_PLANKS.get(), "larch"),
         LINDEN(ModBlocks.LINDEN_PLANKS.get(), "linden"),
+        MAPLE(ModBlocks.MAPLE_PLANKS.get(), "maple"),
         OLIVE(ModBlocks.OLIVE_PLANKS.get(), "olive");
 
         private final String name;

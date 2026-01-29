@@ -75,9 +75,12 @@ public class PristineWorlds
         public static void onClientSetup(FMLClientSetupEvent event) {
             Sheets.addWoodType(ModWoodTypes.CINNAMON);
             Sheets.addWoodType(ModWoodTypes.CYPRESS);
+            Sheets.addWoodType(ModWoodTypes.EBONY);
             Sheets.addWoodType(ModWoodTypes.HICKORY);
             Sheets.addWoodType(ModWoodTypes.LARCH);
             Sheets.addWoodType(ModWoodTypes.LINDEN);
+            Sheets.addWoodType(ModWoodTypes.MAPLE);
+            Sheets.addWoodType(ModWoodTypes.OLIVE);
 
             EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
             EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));

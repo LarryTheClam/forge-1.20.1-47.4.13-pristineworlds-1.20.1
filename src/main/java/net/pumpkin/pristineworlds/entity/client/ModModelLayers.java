@@ -17,6 +17,11 @@ public class ModModelLayers {
     public static final ModelLayerLocation CYPRESS_CHEST_BOAT_LAYER = new ModelLayerLocation(
             new ResourceLocation(PristineWorlds.MOD_ID, "chest_boat/cypress"), "main");
 
+    public static final ModelLayerLocation EBONY_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "boat/ebony"), "main");
+    public static final ModelLayerLocation EBONY_CHEST_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "chest_boat/ebony"), "main");
+
     public static final ModelLayerLocation HICKORY_BOAT_LAYER = new ModelLayerLocation(
             new ResourceLocation(PristineWorlds.MOD_ID, "boat/hickory"), "main");
     public static final ModelLayerLocation HICKORY_CHEST_BOAT_LAYER = new ModelLayerLocation(
@@ -31,6 +36,11 @@ public class ModModelLayers {
             new ResourceLocation(PristineWorlds.MOD_ID, "boat/linden"), "main");
     public static final ModelLayerLocation LINDEN_CHEST_BOAT_LAYER = new ModelLayerLocation(
             new ResourceLocation(PristineWorlds.MOD_ID, "chest_boat/linden"), "main");
+
+    public static final ModelLayerLocation MAPLE_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "boat/maple"), "main");
+    public static final ModelLayerLocation MAPLE_CHEST_BOAT_LAYER = new ModelLayerLocation(
+            new ResourceLocation(PristineWorlds.MOD_ID, "chest_boat/maple"), "main");
 
     public static final ModelLayerLocation OLIVE_BOAT_LAYER = new ModelLayerLocation(
             new ResourceLocation(PristineWorlds.MOD_ID, "boat/olive"), "main");

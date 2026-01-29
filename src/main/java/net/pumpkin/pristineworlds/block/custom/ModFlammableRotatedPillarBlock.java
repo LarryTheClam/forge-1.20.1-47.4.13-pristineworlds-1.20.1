@@ -53,6 +53,13 @@ public class ModFlammableRotatedPillarBlock extends RotatedPillarBlock {
                 return ModBlocks.STRIPPED_CYPRESS_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
 
+            if(state.is(ModBlocks.EBONY_LOG.get())) {
+                return ModBlocks.STRIPPED_EBONY_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(ModBlocks.EBONY_WOOD.get())) {
+                return ModBlocks.STRIPPED_EBONY_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+
             if(state.is(ModBlocks.HICKORY_LOG.get())) {
                 return ModBlocks.STRIPPED_HICKORY_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
@@ -72,6 +79,13 @@ public class ModFlammableRotatedPillarBlock extends RotatedPillarBlock {
             }
             if(state.is(ModBlocks.LINDEN_WOOD.get())) {
                 return ModBlocks.STRIPPED_LINDEN_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+
+            if(state.is(ModBlocks.MAPLE_LOG.get())) {
+                return ModBlocks.STRIPPED_MAPLE_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(ModBlocks.MAPLE_WOOD.get())) {
+                return ModBlocks.STRIPPED_MAPLE_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
 
             if(state.is(ModBlocks.OLIVE_LOG.get())) {

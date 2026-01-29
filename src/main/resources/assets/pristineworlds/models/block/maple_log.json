@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pristineworlds:block/maple_log_top",
+    "side": "pristineworlds:block/maple_log"
+  }
+}

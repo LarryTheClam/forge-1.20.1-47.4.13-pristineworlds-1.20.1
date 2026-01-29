@@ -67,11 +67,13 @@
 
     "pristineworlds:packed_mud_stairs",
 
-    "pristineworlds:cinnamon_slab",
-    "pristineworlds:cypress_slab",
-    "pristineworlds:hickory_slab",
-    "pristineworlds:larch_slab",
+    "pristineworlds:cinnamon_stairs",
+    "pristineworlds:cypress_stairs",
+    "pristineworlds:ebony_stairs",
+    "pristineworlds:hickory_stairs",
+    "pristineworlds:larch_stairs",
     "pristineworlds:linden_stairs",
+    "pristineworlds:maple_stairs",
     "pristineworlds:olive_stairs"
   ]
 }

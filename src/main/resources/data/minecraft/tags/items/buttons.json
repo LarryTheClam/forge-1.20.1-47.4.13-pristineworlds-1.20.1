@@ -3,9 +3,11 @@
   "values": [
     "pristineworlds:cinnamon_button",
     "pristineworlds:cypress_button",
+    "pristineworlds:ebony_button",
     "pristineworlds:hickory_button",
     "pristineworlds:larch_button",
     "pristineworlds:linden_button",
+    "pristineworlds:maple_button",
     "pristineworlds:olive_button"
   ]
 }

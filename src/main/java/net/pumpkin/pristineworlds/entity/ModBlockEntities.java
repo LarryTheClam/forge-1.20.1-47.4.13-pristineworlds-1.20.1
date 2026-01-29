@@ -19,12 +19,16 @@ public class ModBlockEntities {
                             ModBlocks.CINNAMON_WALL_SIGN.get(),
                             ModBlocks.CYPRESS_SIGN.get(),
                             ModBlocks.CYPRESS_WALL_SIGN.get(),
+                            ModBlocks.EBONY_SIGN.get(),
+                            ModBlocks.EBONY_WALL_SIGN.get(),
                             ModBlocks.HICKORY_SIGN.get(),
                             ModBlocks.HICKORY_WALL_SIGN.get(),
                             ModBlocks.LARCH_SIGN.get(),
                             ModBlocks.LARCH_WALL_SIGN.get(),
                             ModBlocks.LINDEN_SIGN.get(),
                             ModBlocks.LINDEN_WALL_SIGN.get(),
+                            ModBlocks.MAPLE_SIGN.get(),
+                            ModBlocks.MAPLE_WALL_SIGN.get(),
                             ModBlocks.OLIVE_SIGN.get(),
                             ModBlocks.OLIVE_WALL_SIGN.get()
                     ).build(null));
@@ -36,12 +40,16 @@ public class ModBlockEntities {
                             ModBlocks.CINNAMON_WALL_HANGING_SIGN.get(),
                             ModBlocks.CYPRESS_HANGING_SIGN.get(),
                             ModBlocks.CYPRESS_WALL_HANGING_SIGN.get(),
+                            ModBlocks.EBONY_HANGING_SIGN.get(),
+                            ModBlocks.EBONY_WALL_HANGING_SIGN.get(),
                             ModBlocks.HICKORY_HANGING_SIGN.get(),
                             ModBlocks.HICKORY_WALL_HANGING_SIGN.get(),
                             ModBlocks.LARCH_HANGING_SIGN.get(),
                             ModBlocks.LARCH_WALL_HANGING_SIGN.get(),
                             ModBlocks.LINDEN_HANGING_SIGN.get(),
                             ModBlocks.LINDEN_WALL_HANGING_SIGN.get(),
+                            ModBlocks.MAPLE_HANGING_SIGN.get(),
+                            ModBlocks.MAPLE_WALL_HANGING_SIGN.get(),
                             ModBlocks.OLIVE_HANGING_SIGN.get(),
                             ModBlocks.OLIVE_WALL_HANGING_SIGN.get()
                     ).build(null));

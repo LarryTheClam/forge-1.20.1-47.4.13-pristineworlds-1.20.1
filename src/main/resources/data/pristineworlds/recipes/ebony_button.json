@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pristineworlds:ebony_planks"
+    }
+  ],
+  "result": {
+    "item": "pristineworlds:ebony_button"
+  }
+}

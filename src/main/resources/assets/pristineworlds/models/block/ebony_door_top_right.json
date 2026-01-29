@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "pristineworlds:block/ebony_door_bottom",
+    "top": "pristineworlds:block/ebony_door_top"
+  }
+}

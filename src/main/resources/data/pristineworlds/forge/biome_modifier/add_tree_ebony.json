@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_ebony_spawnable",
+  "features": "pristineworlds:ebony_placed",
+  "step": "vegetal_decoration"
+}

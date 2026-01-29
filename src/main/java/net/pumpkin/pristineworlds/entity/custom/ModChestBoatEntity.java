@@ -38,6 +38,9 @@ public class ModChestBoatEntity extends ChestBoat {
             case CYPRESS -> {
                 return ModItems.CYPRESS_CHEST_BOAT.get();
             }
+            case EBONY -> {
+                return ModItems.EBONY_CHEST_BOAT.get();
+            }
             case HICKORY -> {
                 return ModItems.HICKORY_CHEST_BOAT.get();
             }
@@ -46,6 +49,9 @@ public class ModChestBoatEntity extends ChestBoat {
             }
             case LINDEN -> {
                 return ModItems.LINDEN_CHEST_BOAT.get();
+            }
+            case MAPLE -> {
+                return ModItems.MAPLE_CHEST_BOAT.get();
             }
             case OLIVE -> {
                 return ModItems.OLIVE_CHEST_BOAT.get();

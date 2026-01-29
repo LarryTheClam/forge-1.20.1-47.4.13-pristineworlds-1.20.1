@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "pristineworlds:block/maple_planks"
+  }
+}

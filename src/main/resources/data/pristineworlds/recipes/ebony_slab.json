@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "pristineworlds:ebony_planks"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "pristineworlds:ebony_slab"
+  }
+}

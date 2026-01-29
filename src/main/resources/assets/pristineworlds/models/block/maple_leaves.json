@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "pristineworlds:block/maple_leaves"
+  }
+}

@@ -4,6 +4,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -59,9 +60,11 @@ public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> CINNAMON_KEY = registerKey("cinnamon");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CYPRESS_KEY = registerKey("cypress");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> EBONY_KEY = registerKey("ebony");
     public static final ResourceKey<ConfiguredFeature<?, ?>> HICKORY_KEY = registerKey("hickory");
     public static final ResourceKey<ConfiguredFeature<?, ?>> LARCH_KEY = registerKey("larch");
     public static final ResourceKey<ConfiguredFeature<?, ?>> LINDEN_KEY = registerKey("linden");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> MAPLE_KEY = registerKey("maple");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OLIVE_KEY = registerKey("olive");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
@@ -177,6 +180,12 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.simple(ModBlocks.CYPRESS_LEAVES.get()),
                 new SpruceFoliagePlacer(UniformInt.of(0, 2), UniformInt.of(2, 3), UniformInt.of(1, 2)),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, EBONY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.EBONY_LOG.get()),
+                new StraightTrunkPlacer(5, 5, 1),
+                BlockStateProvider.simple(ModBlocks.EBONY_LEAVES.get()),
+                new SpruceFoliagePlacer(UniformInt.of(0, 2), UniformInt.of(2, 3), UniformInt.of(1, 2)),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, HICKORY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.HICKORY_LOG.get()),
                 new FancyTrunkPlacer(5, 3, 4),
@@ -193,6 +202,12 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.simple(ModBlocks.LINDEN_LOG.get()),
                 new StraightTrunkPlacer(3, 2, 4),
                 BlockStateProvider.simple(ModBlocks.LINDEN_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(2), 2),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, MAPLE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.MAPLE_LOG.get()),
+                new StraightTrunkPlacer(3, 2, 4),
+                BlockStateProvider.simple(ModBlocks.MAPLE_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(2), 2),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, OLIVE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(

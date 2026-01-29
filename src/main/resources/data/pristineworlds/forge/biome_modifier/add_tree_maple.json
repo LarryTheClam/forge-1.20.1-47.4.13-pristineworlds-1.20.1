@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_maple_spawnable",
+  "features": "pristineworlds:maple_placed",
+  "step": "vegetal_decoration"
+}

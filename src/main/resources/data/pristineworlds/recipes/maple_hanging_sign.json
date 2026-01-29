@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "pristineworlds:stripped_maple_log"
+    },
+    "X": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "X X",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "pristineworlds:maple_hanging_sign"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "pristineworlds:ebony_planks"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "pristineworlds:ebony_fence_gate"
+  }
+}
