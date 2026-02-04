@@ -109,7 +109,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.CYAN_TERRACOTTA_BRICKS.get());
                         pOutput.accept(ModBlocks.GRAY_TERRACOTTA_BRICKS.get());
                         pOutput.accept(ModBlocks.GREEN_TERRACOTTA_BRICKS.get());
-                        pOutput.accept(ModBlocks.GRAY_TERRACOTTA_BRICKS.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_BRICKS.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICKS.get());
                         pOutput.accept(ModBlocks.LIME_TERRACOTTA_BRICKS.get());
                         pOutput.accept(ModBlocks.MAGENTA_TERRACOTTA_BRICKS.get());
                         pOutput.accept(ModBlocks.ORANGE_TERRACOTTA_BRICKS.get());
