@@ -67,6 +67,7 @@
 
     "pristineworlds:packed_mud_stairs",
 
+    "pristineworlds:cedar_stairs",
     "pristineworlds:cinnamon_stairs",
     "pristineworlds:cypress_stairs",
     "pristineworlds:ebony_stairs",
@@ -74,6 +75,7 @@
     "pristineworlds:larch_stairs",
     "pristineworlds:linden_stairs",
     "pristineworlds:maple_stairs",
-    "pristineworlds:olive_stairs"
+    "pristineworlds:olive_stairs",
+    "pristineworlds:palm_stairs"
   ]
 }

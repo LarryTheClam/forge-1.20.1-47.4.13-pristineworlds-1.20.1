@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cedar_log",
+    "pristineworlds:cedar_wood",
+    "pristineworlds:stripped_cedar_log",
+    "pristineworlds:stripped_cedar_wood",
     "pristineworlds:cinnamon_log",
     "pristineworlds:cinnamon_wood",
     "pristineworlds:stripped_cinnamon_log",
@@ -32,6 +36,10 @@
     "pristineworlds:olive_log",
     "pristineworlds:olive_wood",
     "pristineworlds:stripped_olive_log",
-    "pristineworlds:stripped_olive_wood"
+    "pristineworlds:stripped_olive_wood",
+    "pristineworlds:palm_log",
+    "pristineworlds:palm_wood",
+    "pristineworlds:stripped_palm_log",
+    "pristineworlds:stripped_palm_wood"
   ]
 }

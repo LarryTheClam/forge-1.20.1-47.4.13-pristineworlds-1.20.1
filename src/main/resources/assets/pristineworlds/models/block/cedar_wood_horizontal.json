@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "pristineworlds:block/cedar_log",
+    "side": "pristineworlds:block/cedar_log"
+  }
+}

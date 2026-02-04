@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cedar_stairs",
     "pristineworlds:cinnamon_stairs",
     "pristineworlds:cypress_stairs",
     "pristineworlds:ebony_slab",
@@ -8,6 +9,7 @@
     "pristineworlds:larch_stairs",
     "pristineworlds:linden_stairs",
     "pristineworlds:maple_stairs",
-    "pristineworlds:olive_stairs"
+    "pristineworlds:olive_stairs",
+    "pristineworlds:palm_stairs"
   ]
 }

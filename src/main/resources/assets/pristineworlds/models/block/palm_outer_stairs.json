@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pristineworlds:block/palm_planks",
+    "side": "pristineworlds:block/palm_planks",
+    "top": "pristineworlds:block/palm_planks"
+  }
+}

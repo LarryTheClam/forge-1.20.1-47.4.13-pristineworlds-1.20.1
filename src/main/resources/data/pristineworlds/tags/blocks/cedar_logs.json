@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pristineworlds:cedar_log",
+    "pristineworlds:cedar_wood",
+    "pristineworlds:stripped_cedar_log",
+    "pristineworlds:stripped_cedar_wood"
+  ]
+}

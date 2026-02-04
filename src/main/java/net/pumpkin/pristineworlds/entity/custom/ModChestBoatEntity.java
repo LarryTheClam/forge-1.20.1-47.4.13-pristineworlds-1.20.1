@@ -32,6 +32,9 @@ public class ModChestBoatEntity extends ChestBoat {
     @Override
     public Item getDropItem() {
         switch (getModel()) {
+            case CEDAR -> {
+                return ModItems.CEDAR_CHEST_BOAT.get();
+            }
             case CINNAMON -> {
                 return ModItems.CINNAMON_CHEST_BOAT.get();
             }
@@ -55,6 +58,9 @@ public class ModChestBoatEntity extends ChestBoat {
             }
             case OLIVE -> {
                 return ModItems.OLIVE_CHEST_BOAT.get();
+            }
+            case PALM -> {
+                return ModItems.PALM_CHEST_BOAT.get();
             }
         }
         return super.getDropItem();

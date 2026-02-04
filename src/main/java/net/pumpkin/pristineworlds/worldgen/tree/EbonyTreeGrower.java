@@ -11,7 +11,7 @@ public class EbonyTreeGrower extends AbstractMegaTreeGrower {
 
     @Override
     protected @Nullable ResourceKey<ConfiguredFeature<?, ?>> getConfiguredMegaFeature(RandomSource pRandom) {
-        return ModConfiguredFeatures.MAPLE_KEY;
+        return ModConfiguredFeatures.EBONY_KEY;
     }
 
     @Override

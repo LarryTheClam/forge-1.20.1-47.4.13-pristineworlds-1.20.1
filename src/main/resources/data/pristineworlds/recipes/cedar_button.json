@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pristineworlds:cedar_planks"
+    }
+  ],
+  "result": {
+    "item": "pristineworlds:cedar_button"
+  }
+}

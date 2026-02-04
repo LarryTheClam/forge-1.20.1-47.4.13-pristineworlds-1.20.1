@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cedar_planks",
     "pristineworlds:cinnamon_planks",
     "pristineworlds:cypress_planks",
     "pristineworlds:ebony_planks",
@@ -8,6 +9,7 @@
     "pristineworlds:larch_planks",
     "pristineworlds:linden_planks",
     "pristineworlds:maple_planks",
-    "pristineworlds:olive_planks"
+    "pristineworlds:olive_planks",
+    "pristineworlds:palm_planks"
   ]
 }

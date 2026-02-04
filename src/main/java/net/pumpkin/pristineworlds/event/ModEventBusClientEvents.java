@@ -17,6 +17,10 @@ public class ModEventBusClientEvents {
     @SubscribeEvent
     public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
 
+
+        event.registerLayerDefinition(ModModelLayers.CEDAR_BOAT_LAYER, BoatModel::createBodyModel);
+        event.registerLayerDefinition(ModModelLayers.CEDAR_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
+
         event.registerLayerDefinition(ModModelLayers.CINNAMON_BOAT_LAYER, BoatModel::createBodyModel);
         event.registerLayerDefinition(ModModelLayers.CINNAMON_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
 
@@ -40,6 +44,9 @@ public class ModEventBusClientEvents {
 
         event.registerLayerDefinition(ModModelLayers.OLIVE_BOAT_LAYER, BoatModel::createBodyModel);
         event.registerLayerDefinition(ModModelLayers.OLIVE_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
+
+        event.registerLayerDefinition(ModModelLayers.PALM_BOAT_LAYER, BoatModel::createBodyModel);
+        event.registerLayerDefinition(ModModelLayers.PALM_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
 
     }
 

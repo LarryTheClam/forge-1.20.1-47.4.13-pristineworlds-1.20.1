@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cedar_door",
     "pristineworlds:cinnamon_door",
     "pristineworlds:cypress_door",
     "pristineworlds:ebony_door",
@@ -8,6 +9,7 @@
     "pristineworlds:larch_door",
     "pristineworlds:linden_door",
     "pristineworlds:maple_door",
-    "pristineworlds:olive_door"
+    "pristineworlds:olive_door",
+    "pristineworlds:palm_door"
   ]
 }

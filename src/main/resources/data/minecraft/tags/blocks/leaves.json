@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cedar_leaves",
     "pristineworlds:cinnamon_leaves",
     "pristineworlds:cypress_leaves",
     "pristineworlds:ebony_leaves",
@@ -8,6 +9,7 @@
     "pristineworlds:larch_leaves",
     "pristineworlds:linden_leaves",
     "pristineworlds:maple_leaves",
-    "pristineworlds:olive_leaves"
+    "pristineworlds:olive_leaves",
+    "pristineworlds:palm_leaves"
   ]
 }

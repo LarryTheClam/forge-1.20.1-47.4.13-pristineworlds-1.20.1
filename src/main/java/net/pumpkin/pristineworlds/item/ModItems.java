@@ -10,6 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pumpkin.pristineworlds.PristineWorlds;
 import net.pumpkin.pristineworlds.block.ModBlocks;
+import net.pumpkin.pristineworlds.block.ModWoodBlocks;
 import net.pumpkin.pristineworlds.entity.custom.ModBoatEntity;
 import net.pumpkin.pristineworlds.item.custom.ModBoatItem;
 
@@ -63,10 +64,20 @@ public class ModItems {
 
 //Wooden Signs and boats
 
+    public static final RegistryObject<Item> CEDAR_SIGN = ITEMS.register("cedar_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.CEDAR_SIGN.get(), ModWoodBlocks.CEDAR_WALL_SIGN.get()));
+    public static final RegistryObject<Item> CEDAR_HANGING_SIGN = ITEMS.register("cedar_hanging_sign",
+            () -> new HangingSignItem(ModWoodBlocks.CEDAR_HANGING_SIGN.get(), ModWoodBlocks.CEDAR_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> CEDAR_BOAT = ITEMS.register("cedar_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.CEDAR, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> CEDAR_CHEST_BOAT = ITEMS.register("cedar_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.CEDAR, new Item.Properties().stacksTo(1)));
+
+
     public static final RegistryObject<Item> CINNAMON_SIGN = ITEMS.register("cinnamon_sign",
-        () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.CINNAMON_SIGN.get(), ModBlocks.CINNAMON_WALL_SIGN.get()));
+        () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.CINNAMON_SIGN.get(), ModWoodBlocks.CINNAMON_WALL_SIGN.get()));
     public static final RegistryObject<Item> CINNAMON_HANGING_SIGN = ITEMS.register("cinnamon_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.CINNAMON_HANGING_SIGN.get(), ModBlocks.CINNAMON_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.CINNAMON_HANGING_SIGN.get(), ModWoodBlocks.CINNAMON_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> CINNAMON_BOAT = ITEMS.register("cinnamon_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.CINNAMON, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> CINNAMON_CHEST_BOAT = ITEMS.register("cinnamon_chest_boat",
@@ -74,9 +85,9 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> CYPRESS_SIGN = ITEMS.register("cypress_sign",
-        () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.CYPRESS_SIGN.get(), ModBlocks.CYPRESS_WALL_SIGN.get()));
+        () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.CYPRESS_SIGN.get(), ModWoodBlocks.CYPRESS_WALL_SIGN.get()));
     public static final RegistryObject<Item> CYPRESS_HANGING_SIGN = ITEMS.register("cypress_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.CYPRESS_HANGING_SIGN.get(), ModBlocks.CYPRESS_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.CYPRESS_HANGING_SIGN.get(), ModWoodBlocks.CYPRESS_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> CYPRESS_BOAT = ITEMS.register("cypress_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.CYPRESS, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> CYPRESS_CHEST_BOAT = ITEMS.register("cypress_chest_boat",
@@ -84,9 +95,9 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> EBONY_SIGN = ITEMS.register("ebony_sign",
-            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.EBONY_SIGN.get(), ModBlocks.EBONY_WALL_SIGN.get()));
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.EBONY_SIGN.get(), ModWoodBlocks.EBONY_WALL_SIGN.get()));
     public static final RegistryObject<Item> EBONY_HANGING_SIGN = ITEMS.register("ebony_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.EBONY_HANGING_SIGN.get(), ModBlocks.EBONY_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.EBONY_HANGING_SIGN.get(), ModWoodBlocks.EBONY_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> EBONY_BOAT = ITEMS.register("ebony_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.EBONY, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> EBONY_CHEST_BOAT = ITEMS.register("ebony_chest_boat",
@@ -94,9 +105,9 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> HICKORY_SIGN = ITEMS.register("hickory_sign",
-            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.HICKORY_SIGN.get(), ModBlocks.HICKORY_WALL_SIGN.get()));
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.HICKORY_SIGN.get(), ModWoodBlocks.HICKORY_WALL_SIGN.get()));
     public static final RegistryObject<Item> HICKORY_HANGING_SIGN = ITEMS.register("hickory_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.HICKORY_HANGING_SIGN.get(), ModBlocks.HICKORY_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.HICKORY_HANGING_SIGN.get(), ModWoodBlocks.HICKORY_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> HICKORY_BOAT = ITEMS.register("hickory_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.HICKORY, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> HICKORY_CHEST_BOAT = ITEMS.register("hickory_chest_boat",
@@ -104,9 +115,9 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> LARCH_SIGN = ITEMS.register("larch_sign",
-            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.LARCH_SIGN.get(), ModBlocks.LARCH_WALL_SIGN.get()));
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.LARCH_SIGN.get(), ModWoodBlocks.LARCH_WALL_SIGN.get()));
     public static final RegistryObject<Item> LARCH_HANGING_SIGN = ITEMS.register("larch_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.LARCH_HANGING_SIGN.get(), ModBlocks.LARCH_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.LARCH_HANGING_SIGN.get(), ModWoodBlocks.LARCH_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> LARCH_BOAT = ITEMS.register("larch_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.LARCH, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LARCH_CHEST_BOAT = ITEMS.register("larch_chest_boat",
@@ -114,18 +125,18 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> LINDEN_SIGN = ITEMS.register("linden_sign",
-            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.LINDEN_SIGN.get(), ModBlocks.LINDEN_WALL_SIGN.get()));
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.LINDEN_SIGN.get(), ModWoodBlocks.LINDEN_WALL_SIGN.get()));
     public static final RegistryObject<Item> LINDEN_HANGING_SIGN = ITEMS.register("linden_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.LINDEN_HANGING_SIGN.get(), ModBlocks.LINDEN_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.LINDEN_HANGING_SIGN.get(), ModWoodBlocks.LINDEN_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> LINDEN_BOAT = ITEMS.register("linden_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.LINDEN, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LINDEN_CHEST_BOAT = ITEMS.register("linden_chest_boat",
             () -> new ModBoatItem(true, ModBoatEntity.Type.LINDEN, new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> MAPLE_SIGN = ITEMS.register("maple_sign",
-            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.MAPLE_SIGN.get(), ModBlocks.MAPLE_WALL_SIGN.get()));
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.MAPLE_SIGN.get(), ModWoodBlocks.MAPLE_WALL_SIGN.get()));
     public static final RegistryObject<Item> MAPLE_HANGING_SIGN = ITEMS.register("maple_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.MAPLE_HANGING_SIGN.get(), ModBlocks.MAPLE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.MAPLE_HANGING_SIGN.get(), ModWoodBlocks.MAPLE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> MAPLE_BOAT = ITEMS.register("maple_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.MAPLE, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> MAPLE_CHEST_BOAT = ITEMS.register("maple_chest_boat",
@@ -133,13 +144,22 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> OLIVE_SIGN = ITEMS.register("olive_sign",
-            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.OLIVE_SIGN.get(), ModBlocks.OLIVE_WALL_SIGN.get()));
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.OLIVE_SIGN.get(), ModWoodBlocks.OLIVE_WALL_SIGN.get()));
     public static final RegistryObject<Item> OLIVE_HANGING_SIGN = ITEMS.register("olive_hanging_sign",
-            () -> new HangingSignItem(ModBlocks.OLIVE_HANGING_SIGN.get(), ModBlocks.OLIVE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+            () -> new HangingSignItem(ModWoodBlocks.OLIVE_HANGING_SIGN.get(), ModWoodBlocks.OLIVE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> OLIVE_BOAT = ITEMS.register("olive_boat",
             () -> new ModBoatItem(false, ModBoatEntity.Type.OLIVE, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> OLIVE_CHEST_BOAT = ITEMS.register("olive_chest_boat",
             () -> new ModBoatItem(true, ModBoatEntity.Type.OLIVE, new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> PALM_SIGN = ITEMS.register("palm_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModWoodBlocks.PALM_SIGN.get(), ModWoodBlocks.PALM_WALL_SIGN.get()));
+    public static final RegistryObject<Item> PALM_HANGING_SIGN = ITEMS.register("palm_hanging_sign",
+            () -> new HangingSignItem(ModWoodBlocks.PALM_HANGING_SIGN.get(), ModWoodBlocks.PALM_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> PALM_BOAT = ITEMS.register("palm_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.PALM, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PALM_CHEST_BOAT = ITEMS.register("palm_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.PALM, new Item.Properties().stacksTo(1)));
     //I want to breed
 
 

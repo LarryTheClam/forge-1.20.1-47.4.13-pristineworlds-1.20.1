@@ -15,6 +15,7 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import net.pumpkin.pristineworlds.PristineWorlds;
 import net.pumpkin.pristineworlds.block.ModBlocks;
+import net.pumpkin.pristineworlds.block.ModWoodBlocks;
 
 import java.util.List;
 
@@ -44,7 +45,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> LIMESTONE_PLACED_KEY = registerKey("limestone_placed");
     public static final ResourceKey<PlacedFeature> PERIDOTITE_PLACED_KEY = registerKey("peridotite_placed");
 
-
+    public static final ResourceKey<PlacedFeature> CEDAR_PLACED_KEY = registerKey("CEDAR_PLACED");
     public static final ResourceKey<PlacedFeature> CINNAMON_PLACED_KEY = registerKey("cinnamon_placed");
     public static final ResourceKey<PlacedFeature> CYPRESS_PLACED_KEY = registerKey("cypress_placed");
     public static final ResourceKey<PlacedFeature> EBONY_PLACED_KEY = registerKey("ebony_placed");
@@ -53,6 +54,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> LINDEN_PLACED_KEY = registerKey("linden_placed");
     public static final ResourceKey<PlacedFeature> MAPLE_PLACED_KEY = registerKey("maple_placed");
     public static final ResourceKey<PlacedFeature> OLIVE_PLACED_KEY = registerKey("olive_placed");
+    public static final ResourceKey<PlacedFeature> PALM_PLACED_KEY = registerKey("palm_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -127,31 +129,36 @@ public class ModPlacedFeatures {
                 ModOrePlacement.commonOrePlacement(2,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60))));
 
-
+        register(context, CEDAR_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CEDAR_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        ModWoodBlocks.CINNAMON_SAPLING.get()));
         register(context, CINNAMON_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CINNAMON_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
-                        ModBlocks.CINNAMON_SAPLING.get()));
+                        ModWoodBlocks.CINNAMON_SAPLING.get()));
         register(context, CYPRESS_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CYPRESS_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
-                        ModBlocks.CYPRESS_SAPLING.get()));
+                        ModWoodBlocks.CYPRESS_SAPLING.get()));
         register(context, EBONY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.EBONY_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
-                        ModBlocks.EBONY_SAPLING.get()));
+                        ModWoodBlocks.EBONY_SAPLING.get()));
         register(context, HICKORY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.HICKORY_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
-                        ModBlocks.HICKORY_SAPLING.get()));
+                        ModWoodBlocks.HICKORY_SAPLING.get()));
         register(context, LARCH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LARCH_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
-                        ModBlocks.LARCH_SAPLING.get()));
+                        ModWoodBlocks.LARCH_SAPLING.get()));
         register(context, LINDEN_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LINDEN_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
-                        ModBlocks.LINDEN_SAPLING.get()));
+                        ModWoodBlocks.LINDEN_SAPLING.get()));
         register(context, MAPLE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MAPLE_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
-                        ModBlocks.MAPLE_SAPLING.get()));
+                        ModWoodBlocks.MAPLE_SAPLING.get()));
         register(context, OLIVE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OLIVE_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(1, 0.1f, 2),
-                        ModBlocks.OLIVE_SAPLING.get()));
+                        ModWoodBlocks.OLIVE_SAPLING.get()));
+        register(context, PALM_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PALM_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(1, 0.1f, 2),
+                        ModWoodBlocks.PALM_SAPLING.get()));
 
     }
     private static ResourceKey<PlacedFeature> registerKey(String name) {

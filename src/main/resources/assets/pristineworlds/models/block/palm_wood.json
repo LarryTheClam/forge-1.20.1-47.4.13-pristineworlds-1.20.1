@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pristineworlds:block/palm_log",
+    "side": "pristineworlds:block/palm_log"
+  }
+}

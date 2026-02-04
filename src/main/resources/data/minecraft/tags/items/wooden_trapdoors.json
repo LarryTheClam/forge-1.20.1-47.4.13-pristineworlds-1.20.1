@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cedar_trapdoor",
     "pristineworlds:cinnamon_trapdoor",
     "pristineworlds:cypress_trapdoor",
     "pristineworlds:ebony_trapdoor",
@@ -8,6 +9,7 @@
     "pristineworlds:larch_trapdoor",
     "pristineworlds:linden_trapdoor",
     "pristineworlds:maple_trapdoor",
-    "pristineworlds:olive_trapdoor"
+    "pristineworlds:olive_trapdoor",
+    "pristineworlds:palm_trapdoor"
   ]
 }

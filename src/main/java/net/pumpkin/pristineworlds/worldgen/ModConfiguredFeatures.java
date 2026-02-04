@@ -27,6 +27,8 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import net.pumpkin.pristineworlds.PristineWorlds;
 import net.pumpkin.pristineworlds.block.ModBlocks;
+import net.pumpkin.pristineworlds.block.ModMarbleBlocks;
+import net.pumpkin.pristineworlds.block.ModWoodBlocks;
 
 import java.util.List;
 
@@ -57,7 +59,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> LIMESTONE_KEY = registerKey("limestone");
     public static final ResourceKey<ConfiguredFeature<?, ?>> PERIDOTITE_KEY = registerKey("peridotite");
 
-
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CEDAR_KEY = registerKey("cedar");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CINNAMON_KEY = registerKey("cinnamon");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CYPRESS_KEY = registerKey("cypress");
     public static final ResourceKey<ConfiguredFeature<?, ?>> EBONY_KEY = registerKey("ebony");
@@ -66,6 +68,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> LINDEN_KEY = registerKey("linden");
     public static final ResourceKey<ConfiguredFeature<?, ?>> MAPLE_KEY = registerKey("maple");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OLIVE_KEY = registerKey("olive");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> PALM_KEY = registerKey("palm");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -74,62 +77,62 @@ public class ModConfiguredFeatures {
         RuleTest endReplaceables = new BlockMatchTest(Blocks.END_STONE);
 
         List<OreConfiguration.TargetBlockState> BLACK_CALACATTA_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.BLACK_CALACATTA_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.BLACK_CALACATTA_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.BLACK_CALACATTA_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.BLACK_CALACATTA_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> BLACK_LABRADOR_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.BLACK_LABRADOR_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.BLACK_LABRADOR_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.BLACK_LABRADOR_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.BLACK_LABRADOR_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> BLUE_BAY_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.BLUE_BAY_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.BLUE_BAY_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.BLUE_BAY_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.BLUE_BAY_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> BLUE_CALCITE_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.BLUE_CALCITE_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.BLUE_CALCITE_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.BLUE_CALCITE_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.BLUE_CALCITE_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> BLUE_SODALITE_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.BLUE_SODALITE_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.BLUE_SODALITE_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.BLUE_SODALITE_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.BLUE_SODALITE_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> CALACATTA_VAGLI_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.CALACATTA_VAGLI_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.CALACATTA_VAGLI_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.CALACATTA_VAGLI_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.CALACATTA_VAGLI_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> CALACATTA_VIOLA_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.CALACATTA_VIOLA_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.CALACATTA_VIOLA_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.CALACATTA_VIOLA_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.CALACATTA_VIOLA_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> CARRARA_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.CARRARA_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.CARRARA_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.CARRARA_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.CARRARA_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> CASA_MARMI_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.CASA_MARMI_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.CASA_MARMI_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.CASA_MARMI_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.CASA_MARMI_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> FRENCH_CHIFFON_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.FRENCH_CHIFFON_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.FRENCH_CHIFFON_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.FRENCH_CHIFFON_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.FRENCH_CHIFFON_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> GIALLO_ANTICO_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.GIALLO_ANTICO_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.GIALLO_ANTICO_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.GIALLO_ANTICO_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.GIALLO_ANTICO_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> GOLDEN_WAVE_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.GOLDEN_WAVE_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.GOLDEN_WAVE_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.GOLDEN_WAVE_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.GOLDEN_WAVE_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> IMPERIAL_RED_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.IMPERIAL_RED_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.IMPERIAL_RED_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.IMPERIAL_RED_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.IMPERIAL_RED_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> MALACHITE_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.MALACHITE_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.MALACHITE_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.MALACHITE_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.MALACHITE_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> MING_GREEN_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.MING_GREEN_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.MING_GREEN_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.MING_GREEN_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.MING_GREEN_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> PORPHYRY_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.PORPHYRY_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.PORPHYRY_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.PORPHYRY_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.PORPHYRY_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> RED_LAGOON_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.RED_LAGOON_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.RED_LAGOON_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.RED_LAGOON_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.RED_LAGOON_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> RED_VENETIAN_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.RED_VENETIAN_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.RED_VENETIAN_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.RED_VENETIAN_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.RED_VENETIAN_MARBLE_BLOCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> SILVER_CHIANTI_SPAWN = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.SILVER_CHIANTI_MARBLE_BLOCK.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.SILVER_CHIANTI_MARBLE_BLOCK.get().defaultBlockState()));
+                        ModMarbleBlocks.SILVER_CHIANTI_MARBLE_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModMarbleBlocks.SILVER_CHIANTI_MARBLE_BLOCK.get().defaultBlockState()));
 
         List<OreConfiguration.TargetBlockState> BRIMSTONE_SPAWN = List.of(OreConfiguration.target(netherrackReplacables,
                 ModBlocks.BRIMSTONE.get().defaultBlockState()));
@@ -167,53 +170,64 @@ public class ModConfiguredFeatures {
 
 
 
-
-        register(context, CINNAMON_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.CINNAMON_LOG.get()),
+        register(context, CEDAR_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModWoodBlocks.CEDAR_LOG.get()),
                 new StraightTrunkPlacer(4, 1, 1),
-                BlockStateProvider.simple(ModBlocks.CINNAMON_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.CEDAR_LEAVES.get()),
+                new BushFoliagePlacer(UniformInt.of(2, 5), ConstantInt.of(2), 3),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, CINNAMON_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModWoodBlocks.CINNAMON_LOG.get()),
+                new StraightTrunkPlacer(4, 1, 1),
+                BlockStateProvider.simple(ModWoodBlocks.CINNAMON_LEAVES.get()),
                 new BushFoliagePlacer(UniformInt.of(2, 5), ConstantInt.of(2), 3),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, CYPRESS_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.CYPRESS_LOG.get()),
+                BlockStateProvider.simple(ModWoodBlocks.CYPRESS_LOG.get()),
                 new StraightTrunkPlacer(5, 5, 1),
-                BlockStateProvider.simple(ModBlocks.CYPRESS_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.CYPRESS_LEAVES.get()),
                 new SpruceFoliagePlacer(UniformInt.of(0, 2), UniformInt.of(2, 3), UniformInt.of(1, 2)),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, EBONY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.EBONY_LOG.get()),
+                BlockStateProvider.simple(ModWoodBlocks.EBONY_LOG.get()),
                 new StraightTrunkPlacer(5, 5, 1),
-                BlockStateProvider.simple(ModBlocks.EBONY_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.EBONY_LEAVES.get()),
                 new SpruceFoliagePlacer(UniformInt.of(0, 2), UniformInt.of(2, 3), UniformInt.of(1, 2)),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, HICKORY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.HICKORY_LOG.get()),
+                BlockStateProvider.simple(ModWoodBlocks.HICKORY_LOG.get()),
                 new FancyTrunkPlacer(5, 3, 4),
-                BlockStateProvider.simple(ModBlocks.HICKORY_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.HICKORY_LEAVES.get()),
                 new FancyFoliagePlacer(ConstantInt.of(4), ConstantInt.of(4), 2),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, LARCH_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.LARCH_LOG.get()),
+                BlockStateProvider.simple(ModWoodBlocks.LARCH_LOG.get()),
                 new StraightTrunkPlacer(6, 2, 2),
-                BlockStateProvider.simple(ModBlocks.LARCH_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.LARCH_LEAVES.get()),
                 new SpruceFoliagePlacer(UniformInt.of(0, 2), UniformInt.of(2, 3), UniformInt.of(1, 2)),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, LINDEN_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.LINDEN_LOG.get()),
+                BlockStateProvider.simple(ModWoodBlocks.LINDEN_LOG.get()),
                 new StraightTrunkPlacer(3, 2, 4),
-                BlockStateProvider.simple(ModBlocks.LINDEN_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.LINDEN_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(2), 2),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, MAPLE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.MAPLE_LOG.get()),
+                BlockStateProvider.simple(ModWoodBlocks.MAPLE_LOG.get()),
                 new StraightTrunkPlacer(3, 2, 4),
-                BlockStateProvider.simple(ModBlocks.MAPLE_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.MAPLE_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(2), 2),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
         register(context, OLIVE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.OLIVE_LOG.get()),
+                BlockStateProvider.simple(ModWoodBlocks.OLIVE_LOG.get()),
                 new StraightTrunkPlacer(3, 1, 1),
-                BlockStateProvider.simple(ModBlocks.OLIVE_LEAVES.get()),
+                BlockStateProvider.simple(ModWoodBlocks.OLIVE_LEAVES.get()),
+                new FancyFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                new TwoLayersFeatureSize(0, 0, 0)).build());
+        register(context, PALM_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModWoodBlocks.PALM_LOG.get()),
+                new StraightTrunkPlacer(3, 1, 1),
+                BlockStateProvider.simple(ModWoodBlocks.PALM_LEAVES.get()),
                 new FancyFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
                 new TwoLayersFeatureSize(0, 0, 0)).build());
     }

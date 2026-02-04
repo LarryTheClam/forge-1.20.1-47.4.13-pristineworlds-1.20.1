@@ -6,7 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pumpkin.pristineworlds.PristineWorlds;
-import net.pumpkin.pristineworlds.block.ModBlocks;
+import net.pumpkin.pristineworlds.block.ModWoodBlocks;
 
 public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
@@ -15,43 +15,51 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<ModSignBlockEntity>> MOD_SIGN =
             BLOCK_ENTITIES.register("mod_sign", () ->
                     BlockEntityType.Builder.of(ModSignBlockEntity::new,
-                            ModBlocks.CINNAMON_SIGN.get(),
-                            ModBlocks.CINNAMON_WALL_SIGN.get(),
-                            ModBlocks.CYPRESS_SIGN.get(),
-                            ModBlocks.CYPRESS_WALL_SIGN.get(),
-                            ModBlocks.EBONY_SIGN.get(),
-                            ModBlocks.EBONY_WALL_SIGN.get(),
-                            ModBlocks.HICKORY_SIGN.get(),
-                            ModBlocks.HICKORY_WALL_SIGN.get(),
-                            ModBlocks.LARCH_SIGN.get(),
-                            ModBlocks.LARCH_WALL_SIGN.get(),
-                            ModBlocks.LINDEN_SIGN.get(),
-                            ModBlocks.LINDEN_WALL_SIGN.get(),
-                            ModBlocks.MAPLE_SIGN.get(),
-                            ModBlocks.MAPLE_WALL_SIGN.get(),
-                            ModBlocks.OLIVE_SIGN.get(),
-                            ModBlocks.OLIVE_WALL_SIGN.get()
+                            ModWoodBlocks.CEDAR_SIGN.get(),
+                            ModWoodBlocks.CEDAR_WALL_SIGN.get(),
+                            ModWoodBlocks.CINNAMON_SIGN.get(),
+                            ModWoodBlocks.CINNAMON_WALL_SIGN.get(),
+                            ModWoodBlocks.CYPRESS_SIGN.get(),
+                            ModWoodBlocks.CYPRESS_WALL_SIGN.get(),
+                            ModWoodBlocks.EBONY_SIGN.get(),
+                            ModWoodBlocks.EBONY_WALL_SIGN.get(),
+                            ModWoodBlocks.HICKORY_SIGN.get(),
+                            ModWoodBlocks.HICKORY_WALL_SIGN.get(),
+                            ModWoodBlocks.LARCH_SIGN.get(),
+                            ModWoodBlocks.LARCH_WALL_SIGN.get(),
+                            ModWoodBlocks.LINDEN_SIGN.get(),
+                            ModWoodBlocks.LINDEN_WALL_SIGN.get(),
+                            ModWoodBlocks.MAPLE_SIGN.get(),
+                            ModWoodBlocks.MAPLE_WALL_SIGN.get(),
+                            ModWoodBlocks.OLIVE_SIGN.get(),
+                            ModWoodBlocks.OLIVE_WALL_SIGN.get(),
+                            ModWoodBlocks.PALM_SIGN.get(),
+                            ModWoodBlocks.PALM_WALL_SIGN.get()
                     ).build(null));
 
     public static final RegistryObject<BlockEntityType<ModHangingSignBlockEntity>> MOD_HANGING_SIGN =
             BLOCK_ENTITIES.register("mod_hanging_sign", () ->
                     BlockEntityType.Builder.of(ModHangingSignBlockEntity::new,
-                            ModBlocks.CINNAMON_HANGING_SIGN.get(),
-                            ModBlocks.CINNAMON_WALL_HANGING_SIGN.get(),
-                            ModBlocks.CYPRESS_HANGING_SIGN.get(),
-                            ModBlocks.CYPRESS_WALL_HANGING_SIGN.get(),
-                            ModBlocks.EBONY_HANGING_SIGN.get(),
-                            ModBlocks.EBONY_WALL_HANGING_SIGN.get(),
-                            ModBlocks.HICKORY_HANGING_SIGN.get(),
-                            ModBlocks.HICKORY_WALL_HANGING_SIGN.get(),
-                            ModBlocks.LARCH_HANGING_SIGN.get(),
-                            ModBlocks.LARCH_WALL_HANGING_SIGN.get(),
-                            ModBlocks.LINDEN_HANGING_SIGN.get(),
-                            ModBlocks.LINDEN_WALL_HANGING_SIGN.get(),
-                            ModBlocks.MAPLE_HANGING_SIGN.get(),
-                            ModBlocks.MAPLE_WALL_HANGING_SIGN.get(),
-                            ModBlocks.OLIVE_HANGING_SIGN.get(),
-                            ModBlocks.OLIVE_WALL_HANGING_SIGN.get()
+                            ModWoodBlocks.CEDAR_HANGING_SIGN.get(),
+                            ModWoodBlocks.CEDAR_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.CINNAMON_HANGING_SIGN.get(),
+                            ModWoodBlocks.CINNAMON_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.CYPRESS_HANGING_SIGN.get(),
+                            ModWoodBlocks.CYPRESS_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.EBONY_HANGING_SIGN.get(),
+                            ModWoodBlocks.EBONY_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.HICKORY_HANGING_SIGN.get(),
+                            ModWoodBlocks.HICKORY_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.LARCH_HANGING_SIGN.get(),
+                            ModWoodBlocks.LARCH_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.LINDEN_HANGING_SIGN.get(),
+                            ModWoodBlocks.LINDEN_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.MAPLE_HANGING_SIGN.get(),
+                            ModWoodBlocks.MAPLE_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.OLIVE_HANGING_SIGN.get(),
+                            ModWoodBlocks.OLIVE_WALL_HANGING_SIGN.get(),
+                            ModWoodBlocks.PALM_HANGING_SIGN.get(),
+                            ModWoodBlocks.PALM_WALL_HANGING_SIGN.get()
                     ).build(null));
 
     public static void register(IEventBus eventBus) {

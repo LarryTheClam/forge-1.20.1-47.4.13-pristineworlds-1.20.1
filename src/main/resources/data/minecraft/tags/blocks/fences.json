@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pristineworlds:cedar_fence",
     "pristineworlds:cinnamon_fence",
     "pristineworlds:cypress_fence",
     "pristineworlds:ebony_fence",
@@ -8,6 +9,7 @@
     "pristineworlds:larch_fence",
     "pristineworlds:linden_fence",
     "pristineworlds:maple_fence",
-    "pristineworlds:olive_fence"
+    "pristineworlds:olive_fence",
+    "pristineworlds:palm_fence"
   ]
 }

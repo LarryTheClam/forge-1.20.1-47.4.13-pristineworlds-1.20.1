@@ -14,6 +14,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.pumpkin.pristineworlds.block.ModBlocks;
+import net.pumpkin.pristineworlds.block.ModMarbleBlocks;
+import net.pumpkin.pristineworlds.block.ModWoodBlocks;
 import net.pumpkin.pristineworlds.entity.ModBlockEntities;
 import net.pumpkin.pristineworlds.entity.ModEntities;
 import net.pumpkin.pristineworlds.entity.client.ModBoatRenderer;
@@ -36,11 +38,12 @@ public class PristineWorlds
 
         ModItems.register(modEventBus);
         ModCreativeModeTab.register(modEventBus);
-        ModBlocks.register(modEventBus);
         ModEntities.register(modEventBus);
         ModBlockEntities.register(modEventBus);
 
-
+        ModBlocks.register(modEventBus);
+        ModMarbleBlocks.register(modEventBus);
+        ModWoodBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -73,6 +76,7 @@ public class PristineWorlds
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.CEDAR);
             Sheets.addWoodType(ModWoodTypes.CINNAMON);
             Sheets.addWoodType(ModWoodTypes.CYPRESS);
             Sheets.addWoodType(ModWoodTypes.EBONY);
@@ -81,6 +85,7 @@ public class PristineWorlds
             Sheets.addWoodType(ModWoodTypes.LINDEN);
             Sheets.addWoodType(ModWoodTypes.MAPLE);
             Sheets.addWoodType(ModWoodTypes.OLIVE);
+            Sheets.addWoodType(ModWoodTypes.PALM);
 
             EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
             EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));

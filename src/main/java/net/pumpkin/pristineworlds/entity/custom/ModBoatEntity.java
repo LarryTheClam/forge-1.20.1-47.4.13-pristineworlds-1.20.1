@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.pumpkin.pristineworlds.block.ModBlocks;
+import net.pumpkin.pristineworlds.block.ModWoodBlocks;
 import net.pumpkin.pristineworlds.entity.ModEntities;
 import net.pumpkin.pristineworlds.item.ModItems;
 
@@ -37,6 +38,7 @@ public class ModBoatEntity extends Boat {
     @Override
     public Item getDropItem() {
         return switch (getModVariant()) {
+            case CEDAR -> ModItems.CEDAR_BOAT.get();
             case CINNAMON -> ModItems.CINNAMON_BOAT.get();
             case CYPRESS -> ModItems.CYPRESS_BOAT.get();
             case EBONY -> ModItems.EBONY_BOAT.get();
@@ -45,6 +47,7 @@ public class ModBoatEntity extends Boat {
             case LINDEN -> ModItems.LINDEN_BOAT.get();
             case MAPLE -> ModItems.MAPLE_BOAT.get();
             case OLIVE -> ModItems.OLIVE_BOAT.get();
+            case PALM -> ModItems.PALM_BOAT.get();
         };
     }
 
@@ -87,14 +90,16 @@ public class ModBoatEntity extends Boat {
     }
 
     public static enum Type implements StringRepresentable {
-        CINNAMON(ModBlocks.CINNAMON_PLANKS.get(), "cinnamon"),
-        CYPRESS(ModBlocks.CYPRESS_PLANKS.get(), "cypress"),
-        EBONY(ModBlocks.EBONY_PLANKS.get(), "ebony"),
-        HICKORY(ModBlocks.HICKORY_PLANKS.get(), "hickory"),
-        LARCH(ModBlocks.LARCH_PLANKS.get(), "larch"),
-        LINDEN(ModBlocks.LINDEN_PLANKS.get(), "linden"),
-        MAPLE(ModBlocks.MAPLE_PLANKS.get(), "maple"),
-        OLIVE(ModBlocks.OLIVE_PLANKS.get(), "olive");
+        CEDAR(ModWoodBlocks.CEDAR_PLANKS.get(), "cedar"),
+        CINNAMON(ModWoodBlocks.CINNAMON_PLANKS.get(), "cinnamon"),
+        CYPRESS(ModWoodBlocks.CYPRESS_PLANKS.get(), "cypress"),
+        EBONY(ModWoodBlocks.EBONY_PLANKS.get(), "ebony"),
+        HICKORY(ModWoodBlocks.HICKORY_PLANKS.get(), "hickory"),
+        LARCH(ModWoodBlocks.LARCH_PLANKS.get(), "larch"),
+        LINDEN(ModWoodBlocks.LINDEN_PLANKS.get(), "linden"),
+        MAPLE(ModWoodBlocks.MAPLE_PLANKS.get(), "maple"),
+        OLIVE(ModWoodBlocks.OLIVE_PLANKS.get(), "olive"),
+        PALM(ModWoodBlocks.PALM_PLANKS.get(), "palm");
 
         private final String name;
         private final Block planks;
